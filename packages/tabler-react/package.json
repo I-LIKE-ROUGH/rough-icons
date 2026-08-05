@@ -1,0 +1,82 @@
+{
+  "name": "@rough-tabler/react",
+  "version": "0.1.0",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/static/index.js"
+    },
+    "./outline": {
+      "types": "./dist/outline.d.ts",
+      "default": "./dist/static/outline/index.js"
+    },
+    "./outline/*": {
+      "types": "./dist/outline.d.ts",
+      "default": "./dist/static/outline/generated/*.js"
+    },
+    "./filled": {
+      "types": "./dist/filled.d.ts",
+      "default": "./dist/static/filled/index.js"
+    },
+    "./filled/*": {
+      "types": "./dist/filled.d.ts",
+      "default": "./dist/static/filled/generated/*.js"
+    },
+    "./runtime": {
+      "types": "./dist/runtime.d.ts",
+      "default": "./dist/runtime/index.js"
+    },
+    "./runtime/outline": {
+      "types": "./dist/runtime-outline.d.ts",
+      "default": "./dist/runtime/outline/index.js"
+    },
+    "./runtime/outline/*": {
+      "types": "./dist/runtime-outline.d.ts",
+      "default": "./dist/runtime/outline/generated/*.js"
+    },
+    "./runtime/filled": {
+      "types": "./dist/runtime-filled.d.ts",
+      "default": "./dist/runtime/filled/index.js"
+    },
+    "./runtime/filled/*": {
+      "types": "./dist/runtime-filled.d.ts",
+      "default": "./dist/runtime/filled/generated/*.js"
+    },
+    "./dynamic/outline": {
+      "types": "./dist/dynamic.d.ts",
+      "default": "./dist/static/dynamic-outline.js"
+    },
+    "./dynamic/filled": {
+      "types": "./dist/dynamic.d.ts",
+      "default": "./dist/static/dynamic-filled.js"
+    },
+    "./runtime/dynamic/outline": {
+      "types": "./dist/dynamic.d.ts",
+      "default": "./dist/runtime/dynamic-outline.js"
+    },
+    "./runtime/dynamic/filled": {
+      "types": "./dist/dynamic.d.ts",
+      "default": "./dist/runtime/dynamic-filled.js"
+    }
+  },
+  "scripts": {
+    "build": "tsdown && node scripts/write-declarations.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@rough-lucide/core": "workspace:*",
+    "@rough-tabler/icons": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "react": "19.2.8"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}

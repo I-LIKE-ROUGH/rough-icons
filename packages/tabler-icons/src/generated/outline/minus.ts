@@ -1,0 +1,1 @@
+export const IconMinus = {"name":"minus","width":24,"height":24,"paths":[{"d":"M5 12 C10.803 11.858, 14.884 11.339, 19 12 M5 12 C9.834 11.665, 14.768 12.384, 19 12","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

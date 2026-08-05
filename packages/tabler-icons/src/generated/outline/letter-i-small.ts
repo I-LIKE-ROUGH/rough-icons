@@ -1,0 +1,1 @@
+export const IconLetterISmall = {"name":"letter-i-small","width":24,"height":24,"paths":[{"d":"M12 8 C12.084 9.872, 12.467 12.403, 12 16 M12 8 C12.09 11.164, 12.277 14.275, 12 16","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

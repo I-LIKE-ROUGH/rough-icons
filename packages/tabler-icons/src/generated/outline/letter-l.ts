@@ -1,0 +1,1 @@
+export const IconLetterL = {"name":"letter-l","width":24,"height":24,"paths":[{"d":"M7 4 C7.612 8.629, 6.764 12.296, 7 20 M7 4 C7.032 8.853, 7.16 13.32, 7 20 M7 20 C8.753 20.641, 10.745 19.341, 17 20 M7 20 C10.071 19.955, 13.15 19.9, 17 20","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

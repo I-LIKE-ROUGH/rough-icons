@@ -1,0 +1,1 @@
+export const IconNumber7Small = {"name":"number-7-small","width":24,"height":24,"paths":[{"d":"M10 8 C11.187 8.181, 11.779 7.905, 14 8 M10 8 C11.295 8.014, 12.498 8.071, 14 8 M14 8 C13.36 10.398, 12.746 13.01, 12 16 M14 8 C13.491 10.304, 13.022 12.868, 12 16","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

@@ -1,0 +1,1 @@
+export const IconEaseIn = {"name":"ease-in","width":24,"height":24,"paths":[{"d":"M3 20 C11.166 19.533, 20.572 3.36, 21 4 M3 20 C11.735 19.995, 21.448 4.586, 21 4","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { icons } from '@lucide/icons';
 import { transformIcon } from '@rough-lucide/core';
 import { normalizeLucideIcon } from './normalize-lucide.js';
+import { generateTabler } from './generate-tabler.js';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
 const iconsRoot = resolve(root, 'packages/icons/src/generated');
@@ -197,3 +198,4 @@ async function main() {
 }
 
 await main();
+await generateTabler(root);

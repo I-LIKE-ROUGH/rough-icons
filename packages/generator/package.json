@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@lucide/icons": "1.28.0",
-    "@rough-lucide/core": "workspace:*"
+    "@rough-lucide/core": "workspace:*",
+    "@tabler/icons": "3.46.0",
+    "svg-path-bbox": "2.1.0"
   }
 }

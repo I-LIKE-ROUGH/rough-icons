@@ -1,0 +1,1 @@
+export const IconStrokeStraight = {"name":"stroke-straight","width":24,"height":24,"paths":[{"d":"M4 19 C7.684 16.355, 10.81 13.68, 20 5 M4 19 C7.749 15.717, 12.124 12.221, 20 5","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

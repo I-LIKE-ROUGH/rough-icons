@@ -1,0 +1,1 @@
+export const IconTallymark1 = {"name":"tallymark-1","width":24,"height":24,"paths":[{"d":"M12 5 C11.776 8.385, 11.731 13.55, 12 19 M12 5 C11.619 8.827, 12.365 12.861, 12 19","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

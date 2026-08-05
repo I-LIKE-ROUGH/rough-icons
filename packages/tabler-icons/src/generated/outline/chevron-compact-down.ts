@@ -1,0 +1,1 @@
+export const IconChevronCompactDown = {"name":"chevron-compact-down","width":24,"height":24,"paths":[{"d":"M4 11 C5.441 11.279, 6.854 12.351, 12 14 M4 11 C6.797 12.004, 9.379 12.919, 12 14 M12 14 C14.252 13.277, 15.557 12.219, 20 11 M12 14 C14.489 12.98, 17.631 11.846, 20 11","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

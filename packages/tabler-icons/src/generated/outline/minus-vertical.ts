@@ -1,0 +1,1 @@
+export const IconMinusVertical = {"name":"minus-vertical","width":24,"height":24,"paths":[{"d":"M12 5 C11.898 7.736, 12.832 10.506, 12 19 M12 5 C11.6 9.999, 11.893 15.976, 12 19","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

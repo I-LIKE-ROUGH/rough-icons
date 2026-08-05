@@ -1,4 +1,4 @@
-import { forwardRef } from 'react';
+import { forwardRef, useId } from 'react';
 import type { GeneratedIcon } from '@rough-lucide/core';
 import type { RoughIconProps } from './types.js';
 
@@ -15,6 +15,7 @@ export function createStaticIcon(data: GeneratedIcon) {
       },
       ref,
     ) {
+      const instanceId = `rough-${useId().replaceAll(':', '')}`;
       const resolvedStrokeWidth =
         absoluteStrokeWidth && typeof size === 'number'
           ? (strokeWidth * 24) / size
@@ -33,15 +34,31 @@ export function createStaticIcon(data: GeneratedIcon) {
           {...props}
         >
           {title ? <title>{title}</title> : null}
+          {data.clips?.length ? (
+            <defs>
+              {data.clips.map((clip) => (
+                <clipPath id={`${instanceId}-${clip.key}`} key={clip.key}>
+                  {clip.shapes.map((shape, index) => (
+                    <path key={index} d={shape.d} clipRule={shape.clipRule} />
+                  ))}
+                </clipPath>
+              ))}
+            </defs>
+          ) : null}
           {data.paths.map((path, index) => (
             <path
               key={index}
               d={path.d}
               fill={path.fill}
               stroke={path.stroke}
-              strokeWidth={resolvedStrokeWidth}
+              strokeWidth={(path.strokeWidth / 2) * resolvedStrokeWidth}
               strokeLinecap="round"
               strokeLinejoin="round"
+              fillRule={path.fillRule}
+              clipPath={
+                path.clip ? `url(#${instanceId}-${path.clip})` : undefined
+              }
+              opacity={path.opacity}
             />
           ))}
         </svg>

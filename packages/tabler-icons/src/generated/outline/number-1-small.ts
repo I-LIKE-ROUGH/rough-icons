@@ -1,0 +1,1 @@
+export const IconNumber1Small = {"name":"number-1-small","width":24,"height":24,"paths":[{"d":"M11 8 C11.392 7.96, 11.667 7.979, 12 8 M11 8 C11.38 7.984, 11.752 8.03, 12 8 M12 8 C11.979 11.052, 12.368 12.75, 12 16 M12 8 C11.772 9.571, 12.056 11.481, 12 16","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

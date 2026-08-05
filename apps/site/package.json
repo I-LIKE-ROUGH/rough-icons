@@ -11,6 +11,7 @@
   "dependencies": {
     "@rough-lucide/core": "workspace:*",
     "@rough-lucide/icons": "workspace:*",
+    "@rough-tabler/icons": "workspace:*",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },

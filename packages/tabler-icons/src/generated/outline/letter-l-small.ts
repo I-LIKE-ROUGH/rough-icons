@@ -1,0 +1,1 @@
+export const IconLetterLSmall = {"name":"letter-l-small","width":24,"height":24,"paths":[{"d":"M10 8 C10.046 10.029, 10.409 12.376, 10 16 M10 8 C10.208 10.412, 10.277 13.028, 10 16 M10 16 C10.771 16.086, 12.032 15.938, 14 16 M10 16 C11.164 15.887, 12.538 15.883, 14 16","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

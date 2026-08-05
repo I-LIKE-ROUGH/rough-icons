@@ -1,0 +1,1 @@
+export const IconChevronUp = {"name":"chevron-up","width":24,"height":24,"paths":[{"d":"M6 15 C6.951 13.524, 9.282 11.712, 12 9 M6 15 C7.563 13.308, 9.695 11.4, 12 9 M12 9 C13.588 10.822, 14.769 11.906, 18 15 M12 9 C14.422 11.494, 16.471 13.911, 18 15","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

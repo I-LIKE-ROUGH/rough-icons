@@ -1,0 +1,1 @@
+export const IconCheck = {"name":"check","width":24,"height":24,"paths":[{"d":"M5 12 C6.064 13.054, 7.665 14.839, 10 17 M5 12 C5.895 12.931, 7.135 14.046, 10 17 M10 17 C12.386 14.679, 14.794 13.169, 20 7 M10 17 C12.832 13.917, 15.776 10.98, 20 7","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

@@ -1,0 +1,1 @@
+export const IconMathLower = {"name":"math-lower","width":24,"height":24,"paths":[{"d":"M19 18 C13.793 16.315, 8.489 12.804, 5 12 M19 18 C15.816 16.86, 11.971 15.525, 5 12 M5 12 C8.48 10.484, 12.642 8.428, 19 6 M5 12 C9.268 9.848, 13.801 8.171, 19 6","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

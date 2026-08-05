@@ -1,0 +1,1 @@
+export const IconMathGreater = {"name":"math-greater","width":24,"height":24,"paths":[{"d":"M5 18 C8.072 16.888, 11.706 14.882, 19 12 M5 18 C9.242 15.978, 12.654 14.275, 19 12 M19 12 C15.762 10.193, 13.068 8.812, 5 6 M19 12 C14.705 10.326, 9.497 7.809, 5 6","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

@@ -44,6 +44,9 @@ importers:
       '@rough-lucide/icons':
         specifier: workspace:*
         version: link:../../packages/icons
+      '@rough-tabler/icons':
+        specifier: workspace:*
+        version: link:../../packages/tabler-icons
       react:
         specifier: 19.2.8
         version: 19.2.8
@@ -81,6 +84,12 @@ importers:
       '@rough-lucide/core':
         specifier: workspace:*
         version: link:../core
+      '@tabler/icons':
+        specifier: 3.46.0
+        version: 3.46.0
+      svg-path-bbox:
+        specifier: 2.1.0
+        version: 2.1.0
 
   packages/icons:
     dependencies:
@@ -96,6 +105,28 @@ importers:
       '@rough-lucide/icons':
         specifier: workspace:*
         version: link:../icons
+    devDependencies:
+      '@types/react':
+        specifier: 19.2.18
+        version: 19.2.18
+      react:
+        specifier: 19.2.8
+        version: 19.2.8
+
+  packages/tabler-icons:
+    dependencies:
+      '@rough-lucide/core':
+        specifier: workspace:*
+        version: link:../core
+
+  packages/tabler-react:
+    dependencies:
+      '@rough-lucide/core':
+        specifier: workspace:*
+        version: link:../core
+      '@rough-tabler/icons':
+        specifier: workspace:*
+        version: link:../tabler-icons
     devDependencies:
       '@types/react':
         specifier: 19.2.18
@@ -699,6 +730,9 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
+
+  '@tabler/icons@3.46.0':
+    resolution: {integrity: sha512-f2RYFl3fzPwj5WO82x6en0dmkjefxEfOm16D1ByM6cj/McNiwOkL4VaPUoP9VVIrXAD9WnTSVFr70px703b//A==}
 
   '@turbo/darwin-64@2.10.8':
     resolution: {integrity: sha512-po+7rfJfUnFXjWlcoN2RwhErgzCdRtBc1T26vYPcywHlggmCQiQe1uWaE4j+BibI2uY9/2pDoFzMN0rmSaPFOw==}
@@ -1470,6 +1504,11 @@ packages:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
 
+  svg-path-bbox@2.1.0:
+    resolution: {integrity: sha512-PEoSQFbBvL7FOCE4cN8Knej6L7bXdNkjPcUYsfMMpq0HpnqiO0sE2mcXTd7LX160aOyh5HbaeN/SoY8thMk5Kg==}
+    engines: {node: '>=6.17.1'}
+    hasBin: true
+
   svgpath@2.6.0:
     resolution: {integrity: sha512-OIWR6bKzXvdXYyO4DK/UWa1VA1JeKq8E+0ug2DG98Y/vOmMpfZNj+TIG988HjfYSqtcy/hFOtZq/n/j5GSESNg==}
 
@@ -2098,6 +2137,8 @@ snapshots:
   '@rolldown/pluginutils@1.0.1': {}
 
   '@standard-schema/spec@1.1.0': {}
+
+  '@tabler/icons@3.46.0': {}
 
   '@turbo/darwin-64@2.10.8':
     optional: true
@@ -2742,6 +2783,10 @@ snapshots:
       ansi-regex: 5.0.1
 
   strip-bom@3.0.0: {}
+
+  svg-path-bbox@2.1.0:
+    dependencies:
+      svgpath: 2.6.0
 
   svgpath@2.6.0: {}
 

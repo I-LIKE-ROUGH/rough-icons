@@ -1,0 +1,1 @@
+export const IconWifi0 = {"name":"wifi-0","width":24,"height":24,"paths":[{"d":"M12 18 C12.003 18, 12.006 18, 12.01 18 M12 18 C12.004 18, 12.007 18, 12.01 18","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

@@ -1,0 +1,1 @@
+export const IconBackslash = {"name":"backslash","width":24,"height":24,"paths":[{"d":"M7 5 C10.119 9.455, 12.279 13.348, 17 19 M7 5 C10.993 9.721, 14.173 15.547, 17 19","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

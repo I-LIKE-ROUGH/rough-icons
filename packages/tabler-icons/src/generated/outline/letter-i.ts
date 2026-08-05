@@ -1,0 +1,1 @@
+export const IconLetterI = {"name":"letter-i","width":24,"height":24,"paths":[{"d":"M12 4 C12.767 6.883, 12.818 10.364, 12 20 M12 4 C12.19 9.156, 11.872 14.382, 12 20","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

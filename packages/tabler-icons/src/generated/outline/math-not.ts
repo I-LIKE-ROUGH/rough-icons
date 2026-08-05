@@ -1,0 +1,1 @@
+export const IconMathNot = {"name":"math-not","width":24,"height":24,"paths":[{"d":"M5 12 C8.27 12.19, 11.642 11.251, 19 12 M5 12 C8.241 11.953, 12.407 11.778, 19 12 M19 12 C19.173 13.332, 18.869 13.984, 19 16 M19 12 C18.955 12.863, 19 13.968, 19 16","fill":"none","stroke":"currentColor","strokeWidth":2,"role":"source-stroke"}]} as const;

@@ -1,8 +1,22 @@
 import type {
+  IconPaint,
   NormalizedIconNode,
   NormalizedIconSource,
 } from '@rough-lucide/core';
 import type { LucideIconData, LucideIconNode } from '@lucide/icons';
+import { analyzePath } from './geometry.js';
+
+export const lucidePaint: IconPaint = {
+  fill: 'none',
+  stroke: 'currentColor',
+  fillRule: 'nonzero',
+  clipRule: 'nonzero',
+  strokeWidth: 2,
+  strokeLinecap: 'round',
+  strokeLinejoin: 'round',
+  fillOpacity: 1,
+  strokeOpacity: 1,
+};
 
 const number = (value: string | undefined, field: string) => {
   const parsed = Number(value);
@@ -44,7 +58,12 @@ function normalizeNode(node: LucideIconNode): NormalizedIconNode {
     case 'path':
       assertAttributes(tag, attributes, ['d']);
       if (!attributes.d) throw new Error('Path is missing d');
-      return { type: 'path', d: attributes.d };
+      return {
+        type: 'path',
+        d: attributes.d,
+        paint: lucidePaint,
+        geometry: analyzePath(attributes.d),
+      };
     case 'line':
       assertAttributes(tag, attributes, ['x1', 'y1', 'x2', 'y2']);
       return {
@@ -53,11 +72,16 @@ function normalizeNode(node: LucideIconNode): NormalizedIconNode {
         y1: number(attributes.y1, 'y1'),
         x2: number(attributes.x2, 'x2'),
         y2: number(attributes.y2, 'y2'),
+        paint: lucidePaint,
       };
     case 'polyline':
     case 'polygon':
       assertAttributes(tag, attributes, ['points']);
-      return { type: tag, points: points(attributes.points) };
+      return {
+        type: tag,
+        points: points(attributes.points),
+        paint: lucidePaint,
+      };
     case 'circle':
       assertAttributes(tag, attributes, ['cx', 'cy', 'r', 'fill']);
       if (attributes.fill && attributes.fill !== 'currentColor')
@@ -67,6 +91,9 @@ function normalizeNode(node: LucideIconNode): NormalizedIconNode {
         cx: number(attributes.cx, 'cx'),
         cy: number(attributes.cy, 'cy'),
         r: number(attributes.r, 'r'),
+        paint: attributes.fill
+          ? { ...lucidePaint, fill: 'currentColor' }
+          : lucidePaint,
         ...(attributes.fill ? { fill: 'currentColor' as const } : {}),
       };
     case 'ellipse':
@@ -77,6 +104,7 @@ function normalizeNode(node: LucideIconNode): NormalizedIconNode {
         cy: number(attributes.cy, 'cy'),
         rx: number(attributes.rx, 'rx'),
         ry: number(attributes.ry, 'ry'),
+        paint: lucidePaint,
       };
     case 'rect':
       assertAttributes(tag, attributes, [
@@ -93,6 +121,7 @@ function normalizeNode(node: LucideIconNode): NormalizedIconNode {
         y: number(attributes.y, 'y'),
         width: number(attributes.width, 'width'),
         height: number(attributes.height, 'height'),
+        paint: lucidePaint,
         ...(attributes.rx ? { rx: number(attributes.rx, 'rx') } : {}),
         ...(attributes.ry ? { ry: number(attributes.ry, 'ry') } : {}),
       };
@@ -111,6 +140,9 @@ export function normalizeLucideIcon(
       name: icon.name,
       width,
       height,
+      iconSet: 'lucide',
+      iconStyle: 'outline',
+      defaultPaint: lucidePaint,
       nodes: icon.node.map(normalizeNode),
     };
   } catch (error) {

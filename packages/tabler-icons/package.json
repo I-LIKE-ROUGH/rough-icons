@@ -1,0 +1,66 @@
+{
+  "name": "@rough-tabler/icons",
+  "version": "0.1.0",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/generated/index.js"
+    },
+    "./outline": {
+      "types": "./dist/outline.d.ts",
+      "default": "./dist/generated/outline/index.js"
+    },
+    "./outline/*": {
+      "types": "./dist/outline.d.ts",
+      "default": "./dist/generated/outline/*.js"
+    },
+    "./filled": {
+      "types": "./dist/filled.d.ts",
+      "default": "./dist/generated/filled/index.js"
+    },
+    "./filled/*": {
+      "types": "./dist/filled.d.ts",
+      "default": "./dist/generated/filled/*.js"
+    },
+    "./source/outline/*": {
+      "types": "./dist/outline.d.ts",
+      "default": "./dist/generated/source/outline/*.js"
+    },
+    "./source/filled/*": {
+      "types": "./dist/filled.d.ts",
+      "default": "./dist/generated/source/filled/*.js"
+    },
+    "./dynamic/outline": {
+      "types": "./dist/dynamic.d.ts",
+      "default": "./dist/generated/dynamic-outline.js"
+    },
+    "./dynamic/filled": {
+      "types": "./dist/dynamic.d.ts",
+      "default": "./dist/generated/dynamic-filled.js"
+    },
+    "./source/dynamic/outline": {
+      "types": "./dist/dynamic-source.d.ts",
+      "default": "./dist/generated/dynamic-source-outline.js"
+    },
+    "./source/dynamic/filled": {
+      "types": "./dist/dynamic-source.d.ts",
+      "default": "./dist/generated/dynamic-source-filled.js"
+    },
+    "./types": {
+      "types": "./dist/types.d.ts",
+      "default": "./dist/types.js"
+    }
+  },
+  "scripts": {
+    "build": "tsdown && node scripts/write-declarations.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@rough-lucide/core": "workspace:*"
+  }
+}

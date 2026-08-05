@@ -11,6 +11,10 @@
     "packages/react/src/runtime/dynamic.ts",
     "packages/react/src/runtime/index.ts",
     "packages/react/src/static/dynamic.ts",
-    "packages/react/src/static/index.ts"
+    "packages/react/src/static/index.ts",
+    "packages/tabler-react/src/runtime/**/index.ts",
+    "packages/tabler-react/src/runtime/dynamic-*.ts",
+    "packages/tabler-react/src/static/**/index.ts",
+    "packages/tabler-react/src/static/dynamic-*.ts"
   ]
 }
