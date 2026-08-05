@@ -8,4 +8,29 @@ describe('core', () => {
   it('changes variants deterministically', () => expect(transformIcon(source, { seed: 'a' })).not.toEqual(transformIcon(source, { seed: 'b' })));
   it('clamps options', () => expect(normalizeRoughOptions({ roughness: 20 }).roughness).toBe(5));
   it('creates stable nonzero seeds', () => expect(resolveIconSeed('house')).toBe(resolveIconSeed('house')));
+
+  it('does not generate hachure fills for unfilled circles', () => {
+    const circle = {
+      name: 'circle',
+      width: 24,
+      height: 24,
+      nodes: [{ type: 'circle' as const, cx: 12, cy: 12, r: 10 }],
+    };
+
+    expect(transformIcon(circle).paths).toHaveLength(1);
+  });
+
+  it('preserves explicit solid circle fills', () => {
+    const circle = {
+      name: 'circle-dot',
+      width: 24,
+      height: 24,
+      nodes: [{ type: 'circle' as const, cx: 12, cy: 12, r: 1, fill: 'currentColor' as const }],
+    };
+
+    expect(transformIcon(circle).paths).toMatchObject([
+      { fill: 'currentColor', stroke: 'none' },
+      { fill: 'none', stroke: 'currentColor' },
+    ]);
+  });
 });

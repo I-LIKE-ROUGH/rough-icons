@@ -51,7 +51,6 @@ export function transformIcon(icon: NormalizedIconSource, input: RoughIconOption
         seed: resolveIconSeed(icon.name, `${baseSeed}:${index}:${JSON.stringify(node)}`),
         stroke: 'currentColor',
         strokeWidth: 2,
-        fill: 'none',
       }),
     ),
   );

@@ -88,7 +88,7 @@ async function main() {
   ]);
   const corePackage = JSON.parse(await readFile(resolve(root, 'packages/core/package.json'), 'utf8'));
   const generatorPackage = JSON.parse(await readFile(resolve(root, 'packages/generator/package.json'), 'utf8'));
-  const manifest = { schemaVersion: 1, source: { package: '@lucide/icons', version: generatorPackage.dependencies['@lucide/icons'] }, generator: { version: 1, roughjs: corePackage.dependencies.roughjs, preset: 'editorial-v1', seedAlgorithm: 'icon-node-hash-v1' }, summary: { icons: entries.length, aliases: Object.keys(aliasMap).length }, icons: manifestIcons };
+  const manifest = { schemaVersion: 1, source: { package: '@lucide/icons', version: generatorPackage.dependencies['@lucide/icons'] }, generator: { version: 2, roughjs: corePackage.dependencies.roughjs, preset: 'editorial-v1', seedAlgorithm: 'icon-node-hash-v1' }, summary: { icons: entries.length, aliases: Object.keys(aliasMap).length }, icons: manifestIcons };
   await write(resolve(root, 'manifests/generation.json'), `${JSON.stringify(manifest, null, 2)}\n`);
   console.log(`Generated ${entries.length} icons.`);
 }

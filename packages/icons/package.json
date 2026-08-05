@@ -1,7 +1,7 @@
 {
   "name": "@rough-lucide/icons",
   "version": "0.1.0",
-  "roughLucide": { "lucideSourceVersion": "1.28.0", "presetVersion": 1, "generatorVersion": 1 },
+  "roughLucide": { "lucideSourceVersion": "1.28.0", "presetVersion": 1, "generatorVersion": 2 },
   "type": "module",
   "sideEffects": false,
   "files": ["dist"],
