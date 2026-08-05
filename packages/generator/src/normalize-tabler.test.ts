@@ -29,4 +29,21 @@ describe('normalizeTablerIcon', () => {
       ]),
     ).toThrow('Unsupported path attributes');
   });
+
+  it('normalizes floating-point bounds for cross-platform generation', () => {
+    const icon = normalizeTablerIcon('target', 'outline', [
+      ['path', { d: 'M13 3.055a9 9 0 1 0 7.941 7.945' }],
+    ]);
+
+    expect(icon.nodes[0]).toMatchObject({
+      geometry: {
+        bounds: {
+          minX: 2.996351,
+          minY: 2.998618,
+          maxX: 20.996877,
+          maxY: 20.999146,
+        },
+      },
+    });
+  });
 });
