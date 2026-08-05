@@ -29,6 +29,6 @@ import { House } from '@rough-lucide/react/runtime';
 - `@rough-lucide/react` — static and runtime React components
 - `@rough-lucide/site` — searchable GitHub Pages explorer
 
-Run `pnpm generate`, `pnpm test`, and `pnpm build`. Generated package source and `manifests/generation.json` are committed so upstream changes remain reviewable.
+Turbo orchestrates workspace builds and type checks, while tsdown builds the library packages. Run `pnpm generate`, `pnpm test`, `pnpm typecheck`, and `pnpm build`. Use `pnpm lint` and `pnpm format:check` for Oxlint and Oxfmt validation. Generated package source and `manifests/generation.json` are committed so upstream changes remain reviewable.
 
 Original icon designs are provided by Lucide contributors under the ISC License. Hand-drawn paths are generated using RoughJS under the MIT License. See `NOTICE` and `LICENSES/`.

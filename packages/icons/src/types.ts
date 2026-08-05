@@ -1,1 +1,6 @@
-export type { GeneratedIcon, GeneratedIconPath, NormalizedIconNode, NormalizedIconSource } from '@rough-lucide/core';
+export type {
+  GeneratedIcon,
+  GeneratedIconPath,
+  NormalizedIconNode,
+  NormalizedIconSource,
+} from '@rough-lucide/core';

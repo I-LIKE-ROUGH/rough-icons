@@ -1,15 +1,27 @@
 {
   "name": "@rough-lucide/core",
   "version": "0.1.0",
-  "roughLucide": { "lucideSourceVersion": "1.28.0", "presetVersion": 1, "generatorVersion": 2 },
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "sideEffects": false,
-  "exports": { ".": "./dist/index.js", "./runtime": "./dist/index.js" },
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "exports": {
+    ".": "./dist/index.js",
+    "./runtime": "./dist/index.js"
+  },
   "scripts": {
-    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "build": "tsdown",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
-  "dependencies": { "roughjs": "4.6.6", "svgpath": "2.6.0" }
+  "dependencies": {
+    "roughjs": "4.6.6",
+    "svgpath": "2.6.0"
+  },
+  "roughLucide": {
+    "lucideSourceVersion": "1.28.0",
+    "presetVersion": 1,
+    "generatorVersion": 2
+  }
 }

@@ -7,7 +7,13 @@ export function hash32(value: string): number {
   return hash >>> 0 || 1;
 }
 
-export function resolveIconSeed(iconName: string, seed?: string | number): number {
-  if (typeof seed === 'number') return Math.max(1, Math.abs(Math.trunc(seed)) % 0x7fffffff);
-  return hash32(seed === undefined ? `editorial-v1:${iconName}` : `${iconName}:${seed}`);
+export function resolveIconSeed(
+  iconName: string,
+  seed?: string | number,
+): number {
+  if (typeof seed === 'number')
+    return Math.max(1, Math.abs(Math.trunc(seed)) % 0x7fffffff);
+  return hash32(
+    seed === undefined ? `editorial-v1:${iconName}` : `${iconName}:${seed}`,
+  );
 }

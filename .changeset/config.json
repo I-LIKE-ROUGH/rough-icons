@@ -3,7 +3,9 @@
   "changelog": "@changesets/cli/changelog",
   "commit": false,
   "fixed": [],
-  "linked": [["@rough-lucide/core", "@rough-lucide/icons", "@rough-lucide/react"]],
+  "linked": [
+    ["@rough-lucide/core", "@rough-lucide/icons", "@rough-lucide/react"]
+  ],
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch"

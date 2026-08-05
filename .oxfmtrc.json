@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "printWidth": 80,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "ignorePatterns": [
+    "**/dist/**",
+    "**/generated/**",
+    "**/.turbo/**",
+    "coverage/**",
+    "packages/react/src/runtime/dynamic.ts",
+    "packages/react/src/runtime/index.ts",
+    "packages/react/src/static/dynamic.ts",
+    "packages/react/src/static/index.ts"
+  ]
+}

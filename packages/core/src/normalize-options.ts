@@ -1,12 +1,19 @@
 import { editorialPreset } from './presets.js';
 import type { NormalizedRoughIconOptions, RoughIconOptions } from './types.js';
 
-const finite = (value: number | undefined, fallback: number, minimum: number, maximum: number) =>
+const finite = (
+  value: number | undefined,
+  fallback: number,
+  minimum: number,
+  maximum: number,
+) =>
   value === undefined || !Number.isFinite(value)
     ? fallback
     : Math.min(maximum, Math.max(minimum, value));
 
-export function normalizeRoughOptions(options: RoughIconOptions = {}): NormalizedRoughIconOptions {
+export function normalizeRoughOptions(
+  options: RoughIconOptions = {},
+): NormalizedRoughIconOptions {
   return {
     roughness: finite(options.roughness, editorialPreset.roughness, 0, 5),
     bowing: finite(options.bowing, editorialPreset.bowing, 0, 5),
@@ -17,7 +24,8 @@ export function normalizeRoughOptions(options: RoughIconOptions = {}): Normalize
       5,
     ),
     seed: options.seed,
-    preserveVertices: options.preserveVertices ?? editorialPreset.preserveVertices,
+    preserveVertices:
+      options.preserveVertices ?? editorialPreset.preserveVertices,
     multipleStrokes: options.multipleStrokes ?? editorialPreset.multipleStrokes,
   };
 }

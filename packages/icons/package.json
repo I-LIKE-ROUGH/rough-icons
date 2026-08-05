@@ -1,10 +1,11 @@
 {
   "name": "@rough-lucide/icons",
   "version": "0.1.0",
-  "roughLucide": { "lucideSourceVersion": "1.28.0", "presetVersion": 1, "generatorVersion": 2 },
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "sideEffects": false,
-  "files": ["dist"],
   "exports": {
     ".": "./dist/generated/index.js",
     "./icons/*": "./dist/generated/static/*.js",
@@ -15,8 +16,15 @@
     "./types": "./dist/types.js"
   },
   "scripts": {
-    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "build": "tsdown",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
-  "dependencies": { "@rough-lucide/core": "workspace:*" }
+  "dependencies": {
+    "@rough-lucide/core": "workspace:*"
+  },
+  "roughLucide": {
+    "lucideSourceVersion": "1.28.0",
+    "presetVersion": 1,
+    "generatorVersion": 2
+  }
 }

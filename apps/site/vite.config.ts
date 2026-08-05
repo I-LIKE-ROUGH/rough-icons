@@ -4,5 +4,13 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: process.env.GITHUB_ACTIONS ? '/rough-lucide/' : '/',
   plugins: [react()],
-  build: { rollupOptions: { output: { manualChunks(id) { return id.includes('node_modules/react') ? 'react' : undefined; } } } },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          return id.includes('node_modules/react') ? 'react' : undefined;
+        },
+      },
+    },
+  },
 });

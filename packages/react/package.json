@@ -1,10 +1,11 @@
 {
   "name": "@rough-lucide/react",
   "version": "0.1.0",
-  "roughLucide": { "lucideSourceVersion": "1.28.0", "presetVersion": 1, "generatorVersion": 2 },
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "sideEffects": false,
-  "files": ["dist"],
   "exports": {
     ".": "./dist/static/index.js",
     "./icons/*": "./dist/static/generated/*.js",
@@ -14,13 +15,23 @@
     "./runtime/dynamic": "./dist/runtime/dynamic.js"
   },
   "scripts": {
-    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "build": "tsdown",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
     "@rough-lucide/core": "workspace:*",
     "@rough-lucide/icons": "workspace:*"
   },
-  "peerDependencies": { "react": ">=18" },
-  "devDependencies": { "@types/react": "19.2.18", "react": "19.2.8" }
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "react": "19.2.8"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "roughLucide": {
+    "lucideSourceVersion": "1.28.0",
+    "presetVersion": 1,
+    "generatorVersion": 2
+  }
 }
