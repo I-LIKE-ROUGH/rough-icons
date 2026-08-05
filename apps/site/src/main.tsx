@@ -85,7 +85,7 @@ function App() {
           〰 Rough Lucide
         </a>
         <nav>
-          <a href="https://github.com/sung-yein/rough-lucide">GitHub</a>
+          <a href="https://github.com/I-LIKE-ROUGH/rough-icons">GitHub</a>
           <a href="https://www.npmjs.com/package/@rough-lucide/react">npm</a>
         </nav>
       </header>
