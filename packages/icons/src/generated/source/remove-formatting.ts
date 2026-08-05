@@ -1,0 +1,1 @@
+export const RemoveFormattingSource = {"name":"remove-formatting","width":24,"height":24,"nodes":[{"type":"path","d":"M4 7V4h16v3"},{"type":"path","d":"M5 20h6"},{"type":"path","d":"M13 4 8 20"},{"type":"path","d":"m15 15 5 5"},{"type":"path","d":"m20 15-5 5"}]} as const;

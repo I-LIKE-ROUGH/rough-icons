@@ -1,0 +1,1 @@
+export const VoicemailSource = {"name":"voicemail","width":24,"height":24,"nodes":[{"type":"circle","cx":6,"cy":12,"r":4},{"type":"circle","cx":18,"cy":12,"r":4},{"type":"line","x1":6,"y1":16,"x2":18,"y2":16}]} as const;

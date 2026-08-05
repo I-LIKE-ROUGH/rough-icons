@@ -1,0 +1,1 @@
+export const BanknoteSource = {"name":"banknote","width":24,"height":24,"nodes":[{"type":"rectangle","x":2,"y":6,"width":20,"height":12,"rx":2},{"type":"circle","cx":12,"cy":12,"r":2},{"type":"path","d":"M6 12h.01M18 12h.01"}]} as const;

@@ -1,0 +1,1 @@
+export const SquareEqualSource = {"name":"square-equal","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M7 10h10"},{"type":"path","d":"M7 14h10"}]} as const;

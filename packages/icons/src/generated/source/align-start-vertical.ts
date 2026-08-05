@@ -1,0 +1,1 @@
+export const AlignStartVerticalSource = {"name":"align-start-vertical","width":24,"height":24,"nodes":[{"type":"rectangle","x":6,"y":14,"width":9,"height":6,"rx":2},{"type":"rectangle","x":6,"y":4,"width":16,"height":6,"rx":2},{"type":"path","d":"M2 2v20"}]} as const;

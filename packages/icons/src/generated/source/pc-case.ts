@@ -1,0 +1,1 @@
+export const PcCaseSource = {"name":"pc-case","width":24,"height":24,"nodes":[{"type":"rectangle","x":5,"y":2,"width":14,"height":20,"rx":2},{"type":"path","d":"M15 14h.01"},{"type":"path","d":"M9 6h6"},{"type":"path","d":"M9 10h6"}]} as const;

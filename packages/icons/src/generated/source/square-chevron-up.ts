@@ -1,0 +1,1 @@
+export const SquareChevronUpSource = {"name":"square-chevron-up","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"m8 14 4-4 4 4"}]} as const;

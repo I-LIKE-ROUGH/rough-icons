@@ -1,0 +1,1 @@
+export const SignalZero = {"name":"signal-zero","width":24,"height":24,"paths":[{"d":"M2 20 C2.004 20, 2.007 20, 2.01 20 M2 20 C2.003 20, 2.006 20, 2.01 20","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

@@ -1,0 +1,1 @@
+export const LaptopMinimalCheckSource = {"name":"laptop-minimal-check","width":24,"height":24,"nodes":[{"type":"path","d":"M2 20h20"},{"type":"path","d":"m9 10 2 2 4-4"},{"type":"rectangle","x":3,"y":4,"width":18,"height":12,"rx":2}]} as const;

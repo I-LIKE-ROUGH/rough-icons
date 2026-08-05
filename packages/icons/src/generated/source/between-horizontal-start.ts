@@ -1,0 +1,1 @@
+export const BetweenHorizontalStartSource = {"name":"between-horizontal-start","width":24,"height":24,"nodes":[{"type":"rectangle","x":8,"y":3,"width":13,"height":7,"rx":1},{"type":"path","d":"m2 9 3 3-3 3"},{"type":"rectangle","x":8,"y":14,"width":13,"height":7,"rx":1}]} as const;

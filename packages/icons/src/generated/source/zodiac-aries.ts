@@ -1,0 +1,1 @@
+export const ZodiacAriesSource = {"name":"zodiac-aries","width":24,"height":24,"nodes":[{"type":"path","d":"M12 7.5a4.5 4.5 0 1 1 5 4.5"},{"type":"path","d":"M7 12a4.5 4.5 0 1 1 5-4.5V21"}]} as const;

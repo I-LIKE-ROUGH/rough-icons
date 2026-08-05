@@ -1,0 +1,1 @@
+export const AlignVerticalJustifyEndSource = {"name":"align-vertical-justify-end","width":24,"height":24,"nodes":[{"type":"rectangle","x":5,"y":12,"width":14,"height":6,"rx":2},{"type":"rectangle","x":7,"y":2,"width":10,"height":6,"rx":2},{"type":"path","d":"M2 22h20"}]} as const;

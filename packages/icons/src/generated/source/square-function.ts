@@ -1,0 +1,1 @@
+export const SquareFunctionSource = {"name":"square-function","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2,"ry":2},{"type":"path","d":"M9 17c2 0 2.8-1 2.8-2.8V10c0-2 1-3.3 3.2-3"},{"type":"path","d":"M9 11.2h5.7"}]} as const;

@@ -1,0 +1,1 @@
+export const HospitalSource = {"name":"hospital","width":24,"height":24,"nodes":[{"type":"path","d":"M12 7v4"},{"type":"path","d":"M14 21v-3a2 2 0 0 0-4 0v3"},{"type":"path","d":"M14 9h-4"},{"type":"path","d":"M18 11h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2"},{"type":"path","d":"M18 21V5a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16"}]} as const;

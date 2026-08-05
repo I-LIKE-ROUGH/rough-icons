@@ -1,0 +1,1 @@
+export const Minus = {"name":"minus","width":24,"height":24,"paths":[{"d":"M5 12 C11.171 12.833, 16.539 11.864, 19 12 M5 12 C10.582 12.19, 16.173 11.617, 19 12","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

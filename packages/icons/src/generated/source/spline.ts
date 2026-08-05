@@ -1,0 +1,1 @@
+export const SplineSource = {"name":"spline","width":24,"height":24,"nodes":[{"type":"circle","cx":19,"cy":5,"r":2},{"type":"circle","cx":5,"cy":19,"r":2},{"type":"path","d":"M5 17A12 12 0 0 1 17 5"}]} as const;

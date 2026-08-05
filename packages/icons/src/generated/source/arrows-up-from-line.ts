@@ -1,0 +1,1 @@
+export const ArrowsUpFromLineSource = {"name":"arrows-up-from-line","width":24,"height":24,"nodes":[{"type":"path","d":"m4 6 3-3 3 3"},{"type":"path","d":"M7 17V3"},{"type":"path","d":"m14 6 3-3 3 3"},{"type":"path","d":"M17 17V3"},{"type":"path","d":"M4 21h16"}]} as const;

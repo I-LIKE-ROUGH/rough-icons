@@ -1,0 +1,1 @@
+export const PanelRightCloseSource = {"name":"panel-right-close","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M15 3v18"},{"type":"path","d":"m8 9 3 3-3 3"}]} as const;

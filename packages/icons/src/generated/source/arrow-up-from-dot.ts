@@ -1,0 +1,1 @@
+export const ArrowUpFromDotSource = {"name":"arrow-up-from-dot","width":24,"height":24,"nodes":[{"type":"path","d":"m5 9 7-7 7 7"},{"type":"path","d":"M12 16V2"},{"type":"circle","cx":12,"cy":21,"r":1}]} as const;

@@ -1,0 +1,1 @@
+export const ChessPawnSource = {"name":"chess-pawn","width":24,"height":24,"nodes":[{"type":"path","d":"M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z"},{"type":"path","d":"m14.5 10 1.5 8"},{"type":"path","d":"M7 10h10"},{"type":"path","d":"m8 18 1.5-8"},{"type":"circle","cx":12,"cy":6,"r":4}]} as const;

@@ -1,0 +1,1 @@
+export const LockOpenSource = {"name":"lock-open","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":11,"width":18,"height":11,"rx":2,"ry":2},{"type":"path","d":"M7 11V7a5 5 0 0 1 9.9-1"}]} as const;

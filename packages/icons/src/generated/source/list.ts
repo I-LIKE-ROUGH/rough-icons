@@ -1,0 +1,1 @@
+export const ListSource = {"name":"list","width":24,"height":24,"nodes":[{"type":"path","d":"M3 5h.01"},{"type":"path","d":"M3 12h.01"},{"type":"path","d":"M3 19h.01"},{"type":"path","d":"M8 5h13"},{"type":"path","d":"M8 12h13"},{"type":"path","d":"M8 19h13"}]} as const;

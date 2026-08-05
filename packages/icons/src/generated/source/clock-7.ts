@@ -1,0 +1,1 @@
+export const Clock7Source = {"name":"clock-7","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":12,"r":10},{"type":"path","d":"M12 6v6l-2 4"}]} as const;

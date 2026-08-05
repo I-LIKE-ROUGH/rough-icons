@@ -1,0 +1,1 @@
+export const SquareUserRoundSource = {"name":"square-user-round","width":24,"height":24,"nodes":[{"type":"path","d":"M18 21a6 6 0 0 0-12 0"},{"type":"circle","cx":12,"cy":11,"r":4},{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2}]} as const;

@@ -1,0 +1,1 @@
+export const AlignHorizontalDistributeStartSource = {"name":"align-horizontal-distribute-start","width":24,"height":24,"nodes":[{"type":"rectangle","x":4,"y":5,"width":6,"height":14,"rx":2},{"type":"rectangle","x":14,"y":7,"width":6,"height":10,"rx":2},{"type":"path","d":"M4 2v20"},{"type":"path","d":"M14 2v20"}]} as const;

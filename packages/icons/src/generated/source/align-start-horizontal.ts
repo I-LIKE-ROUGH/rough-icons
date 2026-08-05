@@ -1,0 +1,1 @@
+export const AlignStartHorizontalSource = {"name":"align-start-horizontal","width":24,"height":24,"nodes":[{"type":"rectangle","x":4,"y":6,"width":6,"height":16,"rx":2},{"type":"rectangle","x":14,"y":6,"width":6,"height":9,"rx":2},{"type":"path","d":"M22 2H2"}]} as const;

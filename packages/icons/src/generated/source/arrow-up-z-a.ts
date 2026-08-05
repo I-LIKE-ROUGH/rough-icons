@@ -1,0 +1,1 @@
+export const ArrowUpZASource = {"name":"arrow-up-z-a","width":24,"height":24,"nodes":[{"type":"path","d":"m3 8 4-4 4 4"},{"type":"path","d":"M7 4v16"},{"type":"path","d":"M15 4h5l-5 6h5"},{"type":"path","d":"M15 20v-3.5a2.5 2.5 0 0 1 5 0V20"},{"type":"path","d":"M20 18h-5"}]} as const;

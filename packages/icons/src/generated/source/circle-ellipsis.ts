@@ -1,0 +1,1 @@
+export const CircleEllipsisSource = {"name":"circle-ellipsis","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":12,"r":10},{"type":"path","d":"M17 12h.01"},{"type":"path","d":"M12 12h.01"},{"type":"path","d":"M7 12h.01"}]} as const;

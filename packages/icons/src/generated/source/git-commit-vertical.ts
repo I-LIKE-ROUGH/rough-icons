@@ -1,0 +1,1 @@
+export const GitCommitVerticalSource = {"name":"git-commit-vertical","width":24,"height":24,"nodes":[{"type":"path","d":"M12 3v6"},{"type":"circle","cx":12,"cy":12,"r":3},{"type":"path","d":"M12 15v6"}]} as const;

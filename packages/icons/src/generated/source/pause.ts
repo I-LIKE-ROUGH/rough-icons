@@ -1,0 +1,1 @@
+export const PauseSource = {"name":"pause","width":24,"height":24,"nodes":[{"type":"rectangle","x":14,"y":3,"width":5,"height":18,"rx":1},{"type":"rectangle","x":5,"y":3,"width":5,"height":18,"rx":1}]} as const;

@@ -1,0 +1,1 @@
+export const SquareKanbanSource = {"name":"square-kanban","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M8 7v7"},{"type":"path","d":"M12 7v4"},{"type":"path","d":"M16 7v9"}]} as const;

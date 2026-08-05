@@ -1,0 +1,1 @@
+export const Tally1 = {"name":"tally-1","width":24,"height":24,"paths":[{"d":"M4 4 C3.932 7.144, 4.655 11.577, 4 20 M4 4 C3.846 8.217, 3.972 12.533, 4 20","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

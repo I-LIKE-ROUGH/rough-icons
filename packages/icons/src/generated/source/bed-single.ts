@@ -1,0 +1,1 @@
+export const BedSingleSource = {"name":"bed-single","width":24,"height":24,"nodes":[{"type":"path","d":"M3 20v-8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8"},{"type":"path","d":"M5 10V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4"},{"type":"path","d":"M3 18h18"}]} as const;

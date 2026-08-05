@@ -1,0 +1,1 @@
+export const CircleArrowRightSource = {"name":"circle-arrow-right","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":12,"r":10},{"type":"path","d":"m12 16 4-4-4-4"},{"type":"path","d":"M8 12h8"}]} as const;

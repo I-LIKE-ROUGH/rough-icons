@@ -1,0 +1,1 @@
+export const AlignVerticalDistributeStartSource = {"name":"align-vertical-distribute-start","width":24,"height":24,"nodes":[{"type":"rectangle","x":5,"y":14,"width":14,"height":6,"rx":2},{"type":"rectangle","x":7,"y":4,"width":10,"height":6,"rx":2},{"type":"path","d":"M2 14h20"},{"type":"path","d":"M2 4h20"}]} as const;

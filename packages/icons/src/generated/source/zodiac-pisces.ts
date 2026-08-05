@@ -1,0 +1,1 @@
+export const ZodiacPiscesSource = {"name":"zodiac-pisces","width":24,"height":24,"nodes":[{"type":"path","d":"M19 21a15 15 0 0 1 0-18"},{"type":"path","d":"M20 12H4"},{"type":"path","d":"M5 3a15 15 0 0 1 0 18"}]} as const;

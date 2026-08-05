@@ -1,0 +1,1 @@
+export const LineStyleSource = {"name":"line-style","width":24,"height":24,"nodes":[{"type":"path","d":"M11 5h2"},{"type":"path","d":"M15 12h6"},{"type":"path","d":"M19 5h2"},{"type":"path","d":"M3 12h6"},{"type":"path","d":"M3 19h18"},{"type":"path","d":"M3 5h2"}]} as const;

@@ -1,0 +1,1 @@
+export const SquareArrowUpRightSource = {"name":"square-arrow-up-right","width":24,"height":24,"nodes":[{"type":"path","d":"M15 15V9H9"},{"type":"path","d":"m9 15 6-6"},{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2}]} as const;

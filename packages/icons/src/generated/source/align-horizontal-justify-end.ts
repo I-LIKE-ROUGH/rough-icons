@@ -1,0 +1,1 @@
+export const AlignHorizontalJustifyEndSource = {"name":"align-horizontal-justify-end","width":24,"height":24,"nodes":[{"type":"rectangle","x":2,"y":5,"width":6,"height":14,"rx":2},{"type":"rectangle","x":12,"y":7,"width":6,"height":10,"rx":2},{"type":"path","d":"M22 2v20"}]} as const;

@@ -1,0 +1,1 @@
+export const ChevronUp = {"name":"chevron-up","width":24,"height":24,"paths":[{"d":"M18 15 C16.667 13.716, 15.477 11.838, 12 9 M18 15 C15.864 12.571, 13.882 10.559, 12 9 M12 9 C10.732 10.708, 8.861 11.747, 6 15 M12 9 C10.241 10.66, 8.358 12.579, 6 15","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

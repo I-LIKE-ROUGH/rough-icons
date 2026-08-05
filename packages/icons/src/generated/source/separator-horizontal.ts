@@ -1,0 +1,1 @@
+export const SeparatorHorizontalSource = {"name":"separator-horizontal","width":24,"height":24,"nodes":[{"type":"path","d":"m16 16-4 4-4-4"},{"type":"path","d":"M3 12h18"},{"type":"path","d":"m8 8 4-4 4 4"}]} as const;

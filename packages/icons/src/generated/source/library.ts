@@ -1,0 +1,1 @@
+export const LibrarySource = {"name":"library","width":24,"height":24,"nodes":[{"type":"path","d":"m16 6 4 14"},{"type":"path","d":"M12 6v14"},{"type":"path","d":"M8 8v12"},{"type":"path","d":"M4 4v16"}]} as const;

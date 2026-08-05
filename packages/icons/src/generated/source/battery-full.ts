@@ -1,0 +1,1 @@
+export const BatteryFullSource = {"name":"battery-full","width":24,"height":24,"nodes":[{"type":"path","d":"M10 10v4"},{"type":"path","d":"M14 10v4"},{"type":"path","d":"M22 14v-4"},{"type":"path","d":"M6 10v4"},{"type":"rectangle","x":2,"y":6,"width":16,"height":12,"rx":2}]} as const;

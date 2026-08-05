@@ -1,0 +1,1 @@
+export const AnnoyedSource = {"name":"annoyed","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":12,"r":10},{"type":"path","d":"M8 15h8"},{"type":"path","d":"M8 9h2"},{"type":"path","d":"M14 9h2"}]} as const;

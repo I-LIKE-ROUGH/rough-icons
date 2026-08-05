@@ -1,0 +1,1 @@
+export const SquareSlashSource = {"name":"square-slash","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"line","x1":9,"y1":15,"x2":15,"y2":9}]} as const;

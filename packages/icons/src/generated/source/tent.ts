@@ -1,0 +1,1 @@
+export const TentSource = {"name":"tent","width":24,"height":24,"nodes":[{"type":"path","d":"M3.5 21 14 3"},{"type":"path","d":"M20.5 21 10 3"},{"type":"path","d":"M15.5 21 12 15l-3.5 6"},{"type":"path","d":"M2 21h20"}]} as const;

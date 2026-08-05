@@ -1,0 +1,1 @@
+export const CalendarPlus2Source = {"name":"calendar-plus-2","width":24,"height":24,"nodes":[{"type":"path","d":"M8 2v3"},{"type":"path","d":"M16 2v3"},{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M3 9h18"},{"type":"path","d":"M10 15h4"},{"type":"path","d":"M12 13v4"}]} as const;

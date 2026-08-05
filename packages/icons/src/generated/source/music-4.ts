@@ -1,0 +1,1 @@
+export const Music4Source = {"name":"music-4","width":24,"height":24,"nodes":[{"type":"path","d":"M9 18V5l12-2v13"},{"type":"path","d":"m9 9 12-2"},{"type":"circle","cx":6,"cy":18,"r":3},{"type":"circle","cx":18,"cy":16,"r":3}]} as const;

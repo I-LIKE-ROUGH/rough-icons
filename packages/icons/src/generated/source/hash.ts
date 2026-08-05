@@ -1,0 +1,1 @@
+export const HashSource = {"name":"hash","width":24,"height":24,"nodes":[{"type":"line","x1":4,"y1":9,"x2":20,"y2":9},{"type":"line","x1":4,"y1":15,"x2":20,"y2":15},{"type":"line","x1":10,"y1":3,"x2":8,"y2":21},{"type":"line","x1":16,"y1":3,"x2":14,"y2":21}]} as const;

@@ -1,0 +1,1 @@
+export const ChevronLeft = {"name":"chevron-left","width":24,"height":24,"paths":[{"d":"M15 18 C13.233 15.531, 10.222 13.444, 9 12 M15 18 C12.852 15.832, 11.189 14.143, 9 12 M9 12 C11.033 10.791, 11.944 8.516, 15 6 M9 12 C10.747 9.79, 12.713 8.401, 15 6","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

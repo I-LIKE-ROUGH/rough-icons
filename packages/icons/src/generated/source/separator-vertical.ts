@@ -1,0 +1,1 @@
+export const SeparatorVerticalSource = {"name":"separator-vertical","width":24,"height":24,"nodes":[{"type":"path","d":"M12 3v18"},{"type":"path","d":"m16 16 4-4-4-4"},{"type":"path","d":"m8 8-4 4 4 4"}]} as const;

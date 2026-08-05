@@ -1,0 +1,1 @@
+export const UserXSource = {"name":"user-x","width":24,"height":24,"nodes":[{"type":"path","d":"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"},{"type":"circle","cx":9,"cy":7,"r":4},{"type":"line","x1":17,"y1":8,"x2":22,"y2":13},{"type":"line","x1":22,"y1":8,"x2":17,"y2":13}]} as const;

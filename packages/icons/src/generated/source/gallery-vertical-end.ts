@@ -1,0 +1,1 @@
+export const GalleryVerticalEndSource = {"name":"gallery-vertical-end","width":24,"height":24,"nodes":[{"type":"path","d":"M7 2h10"},{"type":"path","d":"M5 6h14"},{"type":"rectangle","x":3,"y":10,"width":18,"height":12,"rx":2}]} as const;

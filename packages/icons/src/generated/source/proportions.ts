@@ -1,0 +1,1 @@
+export const ProportionsSource = {"name":"proportions","width":24,"height":24,"nodes":[{"type":"rectangle","x":2,"y":4,"width":20,"height":16,"rx":2},{"type":"path","d":"M12 9v11"},{"type":"path","d":"M2 9h13a2 2 0 0 1 2 2v9"}]} as const;

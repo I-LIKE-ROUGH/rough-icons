@@ -1,0 +1,1 @@
+export const PersonStandingSource = {"name":"person-standing","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":5,"r":1},{"type":"path","d":"m9 20 3-6 3 6"},{"type":"path","d":"m6 8 6 2 6-2"},{"type":"path","d":"M12 10v4"}]} as const;

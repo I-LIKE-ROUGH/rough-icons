@@ -1,0 +1,1 @@
+export const CircleArrowOutUpRightSource = {"name":"circle-arrow-out-up-right","width":24,"height":24,"nodes":[{"type":"path","d":"M22 12A10 10 0 1 1 12 2"},{"type":"path","d":"M22 2 12 12"},{"type":"path","d":"M16 2h6v6"}]} as const;

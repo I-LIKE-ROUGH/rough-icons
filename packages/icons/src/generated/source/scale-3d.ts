@@ -1,0 +1,1 @@
+export const Scale3dSource = {"name":"scale-3d","width":24,"height":24,"nodes":[{"type":"path","d":"M5 7v11a1 1 0 0 0 1 1h11"},{"type":"path","d":"M5.293 18.707 11 13"},{"type":"circle","cx":19,"cy":19,"r":2},{"type":"circle","cx":5,"cy":5,"r":2}]} as const;

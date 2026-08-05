@@ -1,0 +1,1 @@
+export const ListSortDescendingSource = {"name":"list-sort-descending","width":24,"height":24,"nodes":[{"type":"path","d":"M15 12H3"},{"type":"path","d":"M3 5h18"},{"type":"path","d":"M9 19H3"}]} as const;

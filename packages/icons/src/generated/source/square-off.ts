@@ -1,0 +1,1 @@
+export const SquareOffSource = {"name":"square-off","width":24,"height":24,"nodes":[{"type":"path","d":"M20.4 20.4a2 2 0 01-1.4.6H5a2 2 0 01-2-2V5a2 2 0 01.59-1.41"},{"type":"path","d":"M21 15.3V5a2 2 0 00-2-2H8.7"},{"type":"path","d":"M22 22 2 2"}]} as const;

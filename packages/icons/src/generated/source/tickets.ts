@@ -1,0 +1,1 @@
+export const TicketsSource = {"name":"tickets","width":24,"height":24,"nodes":[{"type":"path","d":"m3.173 8.18 11-5a2 2 0 0 1 2.647.993L18.56 8"},{"type":"path","d":"M6 10V8"},{"type":"path","d":"M6 14v1"},{"type":"path","d":"M6 19v2"},{"type":"rectangle","x":2,"y":8,"width":20,"height":13,"rx":2}]} as const;

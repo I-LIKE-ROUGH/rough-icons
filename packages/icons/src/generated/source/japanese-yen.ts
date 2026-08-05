@@ -1,0 +1,1 @@
+export const JapaneseYenSource = {"name":"japanese-yen","width":24,"height":24,"nodes":[{"type":"path","d":"M12 9.5V21m0-11.5L6 3m6 6.5L18 3"},{"type":"path","d":"M6 15h12"},{"type":"path","d":"M6 11h12"}]} as const;

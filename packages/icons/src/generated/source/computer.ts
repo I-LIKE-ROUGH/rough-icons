@@ -1,0 +1,1 @@
+export const ComputerSource = {"name":"computer","width":24,"height":24,"nodes":[{"type":"rectangle","x":5,"y":2,"width":14,"height":8,"rx":2},{"type":"rectangle","x":2,"y":14,"width":20,"height":8,"rx":2},{"type":"path","d":"M6 18h2"},{"type":"path","d":"M12 18h6"}]} as const;

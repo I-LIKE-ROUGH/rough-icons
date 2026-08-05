@@ -1,0 +1,1 @@
+export const Columns4Source = {"name":"columns-4","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M7.5 3v18"},{"type":"path","d":"M12 3v18"},{"type":"path","d":"M16.5 3v18"}]} as const;

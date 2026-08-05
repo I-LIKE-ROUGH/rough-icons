@@ -1,0 +1,1 @@
+export const BetweenVerticalEndSource = {"name":"between-vertical-end","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":7,"height":13,"rx":1},{"type":"path","d":"m9 22 3-3 3 3"},{"type":"rectangle","x":14,"y":3,"width":7,"height":13,"rx":1}]} as const;

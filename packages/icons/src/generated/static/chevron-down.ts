@@ -1,0 +1,1 @@
+export const ChevronDown = {"name":"chevron-down","width":24,"height":24,"paths":[{"d":"M6 9 C7.754 10.489, 9.459 12.134, 12 15 M6 9 C8.296 10.813, 10.357 12.903, 12 15 M12 15 C14.201 12.696, 16.611 10.312, 18 9 M12 15 C13.519 13.683, 14.865 12.312, 18 9","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

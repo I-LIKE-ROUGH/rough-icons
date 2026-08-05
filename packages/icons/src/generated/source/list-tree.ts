@@ -1,0 +1,1 @@
+export const ListTreeSource = {"name":"list-tree","width":24,"height":24,"nodes":[{"type":"path","d":"M8 5h13"},{"type":"path","d":"M13 12h8"},{"type":"path","d":"M13 19h8"},{"type":"path","d":"M3 10a2 2 0 0 0 2 2h3"},{"type":"path","d":"M3 5v12a2 2 0 0 0 2 2h3"}]} as const;

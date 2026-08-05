@@ -1,0 +1,1 @@
+export const RadioReceiverSource = {"name":"radio-receiver","width":24,"height":24,"nodes":[{"type":"path","d":"M5 16v2"},{"type":"path","d":"M19 16v2"},{"type":"rectangle","x":2,"y":8,"width":20,"height":8,"rx":2},{"type":"path","d":"M18 12h.01"}]} as const;

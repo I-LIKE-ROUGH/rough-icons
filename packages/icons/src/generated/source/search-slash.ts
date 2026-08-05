@@ -1,0 +1,1 @@
+export const SearchSlashSource = {"name":"search-slash","width":24,"height":24,"nodes":[{"type":"path","d":"m13.5 8.5-5 5"},{"type":"circle","cx":11,"cy":11,"r":8},{"type":"path","d":"m21 21-4.3-4.3"}]} as const;

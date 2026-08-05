@@ -1,0 +1,1 @@
+export const BatteryChargingSource = {"name":"battery-charging","width":24,"height":24,"nodes":[{"type":"path","d":"m11 7-3 5h4l-3 5"},{"type":"path","d":"M14.856 6H16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.935"},{"type":"path","d":"M22 14v-4"},{"type":"path","d":"M5.14 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2.936"}]} as const;

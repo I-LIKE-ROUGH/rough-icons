@@ -1,0 +1,1 @@
+export const MonitorPauseSource = {"name":"monitor-pause","width":24,"height":24,"nodes":[{"type":"path","d":"M10 13V7"},{"type":"path","d":"M14 13V7"},{"type":"rectangle","x":2,"y":3,"width":20,"height":14,"rx":2},{"type":"path","d":"M12 17v4"},{"type":"path","d":"M8 21h8"}]} as const;

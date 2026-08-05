@@ -1,0 +1,1 @@
+export const ListSortAscendingSource = {"name":"list-sort-ascending","width":24,"height":24,"nodes":[{"type":"path","d":"M3 19h18"},{"type":"path","d":"M15 12H3"},{"type":"path","d":"M9 5H3"}]} as const;

@@ -1,0 +1,1 @@
+export const AlignEndHorizontalSource = {"name":"align-end-horizontal","width":24,"height":24,"nodes":[{"type":"rectangle","x":4,"y":2,"width":6,"height":16,"rx":2},{"type":"rectangle","x":14,"y":9,"width":6,"height":9,"rx":2},{"type":"path","d":"M22 22H2"}]} as const;

@@ -1,0 +1,1 @@
+export const LanguagesSource = {"name":"languages","width":24,"height":24,"nodes":[{"type":"path","d":"m5 8 6 6"},{"type":"path","d":"m4 14 6-6 2-3"},{"type":"path","d":"M2 5h12"},{"type":"path","d":"M7 2h1"},{"type":"path","d":"m22 22-5-10-5 10"},{"type":"path","d":"M14 18h6"}]} as const;

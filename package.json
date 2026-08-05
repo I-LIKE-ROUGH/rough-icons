@@ -1,0 +1,28 @@
+{
+  "name": "rough-lucide",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.18.0",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "pnpm generate && pnpm -r --filter './packages/**' build && pnpm --filter @rough-lucide/site build",
+    "generate": "pnpm --filter @rough-lucide/core build && pnpm --filter @rough-lucide/generator generate",
+    "generate:clean": "pnpm generate",
+    "test": "vitest run",
+    "typecheck": "pnpm --filter @rough-lucide/core build && pnpm --filter @rough-lucide/icons build && pnpm -r typecheck",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "verify:determinism": "tsx scripts/verify-determinism.ts"
+  },
+  "devDependencies": {
+    "@changesets/cli": "2.31.1",
+    "@eslint/js": "9.39.5",
+    "@types/node": "26.1.2",
+    "eslint": "9.39.5",
+    "prettier": "3.9.6",
+    "tsx": "4.23.7",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.66.0",
+    "vitest": "4.1.10"
+  }
+}

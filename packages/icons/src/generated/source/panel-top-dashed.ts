@@ -1,0 +1,1 @@
+export const PanelTopDashedSource = {"name":"panel-top-dashed","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M14 9h1"},{"type":"path","d":"M19 9h2"},{"type":"path","d":"M3 9h2"},{"type":"path","d":"M9 9h1"}]} as const;

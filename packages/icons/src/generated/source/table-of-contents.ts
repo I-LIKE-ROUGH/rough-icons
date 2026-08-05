@@ -1,0 +1,1 @@
+export const TableOfContentsSource = {"name":"table-of-contents","width":24,"height":24,"nodes":[{"type":"path","d":"M16 5H3"},{"type":"path","d":"M16 12H3"},{"type":"path","d":"M16 19H3"},{"type":"path","d":"M21 5h.01"},{"type":"path","d":"M21 12h.01"},{"type":"path","d":"M21 19h.01"}]} as const;

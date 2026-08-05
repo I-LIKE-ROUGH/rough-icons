@@ -1,0 +1,1 @@
+export const AppWindowMacSource = {"name":"app-window-mac","width":24,"height":24,"nodes":[{"type":"rectangle","x":2,"y":4,"width":20,"height":16,"rx":2},{"type":"path","d":"M6 8h.01"},{"type":"path","d":"M10 8h.01"},{"type":"path","d":"M14 8h.01"}]} as const;

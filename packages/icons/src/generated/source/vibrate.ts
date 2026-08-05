@@ -1,0 +1,1 @@
+export const VibrateSource = {"name":"vibrate","width":24,"height":24,"nodes":[{"type":"path","d":"m2 8 2 2-2 2 2 2-2 2"},{"type":"path","d":"m22 8-2 2 2 2-2 2 2 2"},{"type":"rectangle","x":8,"y":5,"width":8,"height":14,"rx":1}]} as const;

@@ -1,0 +1,1 @@
+export const NonBinarySource = {"name":"non-binary","width":24,"height":24,"nodes":[{"type":"path","d":"M12 2v10"},{"type":"path","d":"m8.5 4 7 4"},{"type":"path","d":"m8.5 8 7-4"},{"type":"circle","cx":12,"cy":17,"r":5}]} as const;

@@ -1,0 +1,1 @@
+export const SearchAlertSource = {"name":"search-alert","width":24,"height":24,"nodes":[{"type":"circle","cx":11,"cy":11,"r":8},{"type":"path","d":"m21 21-4.3-4.3"},{"type":"path","d":"M11 7v4"},{"type":"path","d":"M11 15h.01"}]} as const;

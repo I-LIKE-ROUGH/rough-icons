@@ -1,0 +1,1 @@
+export const SquareScissorsSource = {"name":"square-scissors","width":24,"height":24,"nodes":[{"type":"path","d":"m17 17-2.18-2.18"},{"type":"path","d":"M9.56 14.44 17 7"},{"type":"path","d":"M9.56 9.56 12 12"},{"type":"circle","cx":8.5,"cy":15.5,"r":1.5},{"type":"circle","cx":8.5,"cy":8.5,"r":1.5},{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2}]} as const;

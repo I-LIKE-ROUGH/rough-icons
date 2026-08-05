@@ -1,0 +1,1 @@
+export const ListFilterPlusSource = {"name":"list-filter-plus","width":24,"height":24,"nodes":[{"type":"path","d":"M12 5H2"},{"type":"path","d":"M6 12h12"},{"type":"path","d":"M9 19h6"},{"type":"path","d":"M16 5h6"},{"type":"path","d":"M19 8V2"}]} as const;

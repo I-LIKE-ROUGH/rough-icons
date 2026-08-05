@@ -1,0 +1,1 @@
+export const MarsStrokeSource = {"name":"mars-stroke","width":24,"height":24,"nodes":[{"type":"path","d":"m14 6 4 4"},{"type":"path","d":"M17 3h4v4"},{"type":"path","d":"m21 3-7.75 7.75"},{"type":"circle","cx":9,"cy":15,"r":6}]} as const;

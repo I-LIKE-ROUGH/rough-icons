@@ -1,0 +1,1 @@
+export const PaintRollerSource = {"name":"paint-roller","width":24,"height":24,"nodes":[{"type":"rectangle","x":2,"y":2,"width":16,"height":6,"rx":2},{"type":"path","d":"M10 16v-2a2 2 0 0 1 2-2h8a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"},{"type":"rectangle","x":8,"y":16,"width":4,"height":6,"rx":1}]} as const;

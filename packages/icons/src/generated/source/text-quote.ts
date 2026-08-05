@@ -1,0 +1,1 @@
+export const TextQuoteSource = {"name":"text-quote","width":24,"height":24,"nodes":[{"type":"path","d":"M17 5H3"},{"type":"path","d":"M21 12H8"},{"type":"path","d":"M21 19H8"},{"type":"path","d":"M3 12v7"}]} as const;

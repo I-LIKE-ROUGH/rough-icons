@@ -1,0 +1,1 @@
+export const UngroupSource = {"name":"ungroup","width":24,"height":24,"nodes":[{"type":"rectangle","x":11,"y":14,"width":10,"height":7,"rx":2},{"type":"rectangle","x":3,"y":3,"width":10,"height":7,"rx":2}]} as const;

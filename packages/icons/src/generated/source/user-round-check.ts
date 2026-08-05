@@ -1,0 +1,1 @@
+export const UserRoundCheckSource = {"name":"user-round-check","width":24,"height":24,"nodes":[{"type":"path","d":"M2 21a8 8 0 0 1 13.292-6"},{"type":"circle","cx":10,"cy":8,"r":5},{"type":"path","d":"m16 19 2 2 4-4"}]} as const;

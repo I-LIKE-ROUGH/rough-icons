@@ -1,0 +1,1 @@
+export const AsteriskSource = {"name":"asterisk","width":24,"height":24,"nodes":[{"type":"path","d":"M12 6v12"},{"type":"path","d":"M17.196 9 6.804 15"},{"type":"path","d":"m6.804 9 10.392 6"}]} as const;

@@ -1,0 +1,1 @@
+export const WifiZero = {"name":"wifi-zero","width":24,"height":24,"paths":[{"d":"M12 20 C12.004 20, 12.007 19.999, 12.01 20 M12 20 C12.004 20, 12.006 20, 12.01 20","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

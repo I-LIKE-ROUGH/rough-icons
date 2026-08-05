@@ -1,0 +1,1 @@
+export const CircleArrowOutDownLeftSource = {"name":"circle-arrow-out-down-left","width":24,"height":24,"nodes":[{"type":"path","d":"M2 12a10 10 0 1 1 10 10"},{"type":"path","d":"m2 22 10-10"},{"type":"path","d":"M8 22H2v-6"}]} as const;

@@ -1,0 +1,1 @@
+export const CircleEqualSource = {"name":"circle-equal","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":12,"r":10},{"type":"path","d":"M7 10h10"},{"type":"path","d":"M7 14h10"}]} as const;

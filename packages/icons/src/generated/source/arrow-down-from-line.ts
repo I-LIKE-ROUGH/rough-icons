@@ -1,0 +1,1 @@
+export const ArrowDownFromLineSource = {"name":"arrow-down-from-line","width":24,"height":24,"nodes":[{"type":"path","d":"M19 3H5"},{"type":"path","d":"M12 21V7"},{"type":"path","d":"m6 15 6 6 6-6"}]} as const;

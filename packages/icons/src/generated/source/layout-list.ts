@@ -1,0 +1,1 @@
+export const LayoutListSource = {"name":"layout-list","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":7,"height":7,"rx":1},{"type":"rectangle","x":3,"y":14,"width":7,"height":7,"rx":1},{"type":"path","d":"M14 4h7"},{"type":"path","d":"M14 9h7"},{"type":"path","d":"M14 15h7"},{"type":"path","d":"M14 20h7"}]} as const;

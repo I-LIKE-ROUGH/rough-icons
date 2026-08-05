@@ -1,0 +1,1 @@
+export const CreditCardSource = {"name":"credit-card","width":24,"height":24,"nodes":[{"type":"rectangle","x":2,"y":5,"width":20,"height":14,"rx":2},{"type":"line","x1":2,"y1":10,"x2":22,"y2":10}]} as const;

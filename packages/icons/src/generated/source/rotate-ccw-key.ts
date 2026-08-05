@@ -1,0 +1,1 @@
+export const RotateCcwKeySource = {"name":"rotate-ccw-key","width":24,"height":24,"nodes":[{"type":"path","d":"M12 7v6"},{"type":"path","d":"M12 9h2"},{"type":"path","d":"M3 12a9 9 0 1 0 9-9 9.74 9.74 0 0 0-6.74 2.74L3 8"},{"type":"path","d":"M3 3v5h5"},{"type":"circle","cx":12,"cy":15,"r":2}]} as const;

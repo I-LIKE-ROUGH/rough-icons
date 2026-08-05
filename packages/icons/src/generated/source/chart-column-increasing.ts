@@ -1,0 +1,1 @@
+export const ChartColumnIncreasingSource = {"name":"chart-column-increasing","width":24,"height":24,"nodes":[{"type":"path","d":"M13 17V9"},{"type":"path","d":"M18 17V5"},{"type":"path","d":"M3 3v16a2 2 0 0 0 2 2h16"},{"type":"path","d":"M8 17v-3"}]} as const;

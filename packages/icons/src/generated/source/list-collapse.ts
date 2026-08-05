@@ -1,0 +1,1 @@
+export const ListCollapseSource = {"name":"list-collapse","width":24,"height":24,"nodes":[{"type":"path","d":"M10 5h11"},{"type":"path","d":"M10 12h11"},{"type":"path","d":"M10 19h11"},{"type":"path","d":"m3 10 3-3-3-3"},{"type":"path","d":"m3 20 3-3-3-3"}]} as const;

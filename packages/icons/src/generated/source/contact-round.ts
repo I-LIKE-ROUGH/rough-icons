@@ -1,0 +1,1 @@
+export const ContactRoundSource = {"name":"contact-round","width":24,"height":24,"nodes":[{"type":"path","d":"M16 2v2"},{"type":"path","d":"M17.915 21a6 6 0 10-12 0"},{"type":"path","d":"M8 2v2"},{"type":"circle","cx":12,"cy":11,"r":4},{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2}]} as const;

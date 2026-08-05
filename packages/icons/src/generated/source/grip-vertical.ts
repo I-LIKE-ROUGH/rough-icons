@@ -1,0 +1,1 @@
+export const GripVerticalSource = {"name":"grip-vertical","width":24,"height":24,"nodes":[{"type":"circle","cx":9,"cy":12,"r":1},{"type":"circle","cx":9,"cy":5,"r":1},{"type":"circle","cx":9,"cy":19,"r":1},{"type":"circle","cx":15,"cy":12,"r":1},{"type":"circle","cx":15,"cy":5,"r":1},{"type":"circle","cx":15,"cy":19,"r":1}]} as const;

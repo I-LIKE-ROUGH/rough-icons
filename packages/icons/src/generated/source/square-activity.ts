@@ -1,0 +1,1 @@
+export const SquareActivitySource = {"name":"square-activity","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M17 12h-2l-2 5-2-10-2 5H7"}]} as const;

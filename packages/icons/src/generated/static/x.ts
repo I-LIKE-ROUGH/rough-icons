@@ -1,0 +1,1 @@
+export const X = {"name":"x","width":24,"height":24,"paths":[{"d":"M18 6 C14.968 9.446, 12.499 11.685, 6 18 M18 6 C14.366 10.26, 10.449 14.001, 6 18","fill":"none","stroke":"currentColor","strokeWidth":2},{"d":"M6 6 C9.9 10.128, 14.203 13.853, 18 18 M6 6 C9.056 9.586, 12.627 12.341, 18 18","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

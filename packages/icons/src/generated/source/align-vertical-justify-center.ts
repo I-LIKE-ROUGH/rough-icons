@@ -1,0 +1,1 @@
+export const AlignVerticalJustifyCenterSource = {"name":"align-vertical-justify-center","width":24,"height":24,"nodes":[{"type":"rectangle","x":5,"y":16,"width":14,"height":6,"rx":2},{"type":"rectangle","x":7,"y":2,"width":10,"height":6,"rx":2},{"type":"path","d":"M2 12h20"}]} as const;

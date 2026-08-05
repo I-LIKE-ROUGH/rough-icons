@@ -1,0 +1,1 @@
+export const RssSource = {"name":"rss","width":24,"height":24,"nodes":[{"type":"path","d":"M4 11a9 9 0 0 1 9 9"},{"type":"path","d":"M4 4a16 16 0 0 1 16 16"},{"type":"circle","cx":5,"cy":19,"r":1}]} as const;

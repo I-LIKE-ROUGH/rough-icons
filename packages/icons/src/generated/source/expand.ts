@@ -1,0 +1,1 @@
+export const ExpandSource = {"name":"expand","width":24,"height":24,"nodes":[{"type":"path","d":"m15 15 6 6"},{"type":"path","d":"m15 9 6-6"},{"type":"path","d":"M21 16v5h-5"},{"type":"path","d":"M21 8V3h-5"},{"type":"path","d":"M3 16v5h5"},{"type":"path","d":"m3 21 6-6"},{"type":"path","d":"M3 8V3h5"},{"type":"path","d":"M9 9 3 3"}]} as const;

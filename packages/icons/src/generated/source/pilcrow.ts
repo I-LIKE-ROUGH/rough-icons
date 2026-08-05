@@ -1,0 +1,1 @@
+export const PilcrowSource = {"name":"pilcrow","width":24,"height":24,"nodes":[{"type":"path","d":"M13 4v16"},{"type":"path","d":"M17 4v16"},{"type":"path","d":"M19 4H9.5a4.5 4.5 0 0 0 0 9H13"}]} as const;

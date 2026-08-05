@@ -1,0 +1,1 @@
+export const UnfoldVerticalSource = {"name":"unfold-vertical","width":24,"height":24,"nodes":[{"type":"path","d":"M12 22v-6"},{"type":"path","d":"M12 8V2"},{"type":"path","d":"M4 12H2"},{"type":"path","d":"M10 12H8"},{"type":"path","d":"M16 12h-2"},{"type":"path","d":"M22 12h-2"},{"type":"path","d":"m15 19-3 3-3-3"},{"type":"path","d":"m15 5-3-3-3 3"}]} as const;

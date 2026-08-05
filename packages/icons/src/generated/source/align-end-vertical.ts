@@ -1,0 +1,1 @@
+export const AlignEndVerticalSource = {"name":"align-end-vertical","width":24,"height":24,"nodes":[{"type":"rectangle","x":2,"y":4,"width":16,"height":6,"rx":2},{"type":"rectangle","x":9,"y":14,"width":9,"height":6,"rx":2},{"type":"path","d":"M22 22V2"}]} as const;

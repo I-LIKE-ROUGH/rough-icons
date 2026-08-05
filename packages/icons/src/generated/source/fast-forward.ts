@@ -1,0 +1,1 @@
+export const FastForwardSource = {"name":"fast-forward","width":24,"height":24,"nodes":[{"type":"path","d":"M12 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 12 18z"},{"type":"path","d":"M2 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 2 18z"}]} as const;

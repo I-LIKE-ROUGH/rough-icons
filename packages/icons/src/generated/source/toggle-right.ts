@@ -1,0 +1,1 @@
+export const ToggleRightSource = {"name":"toggle-right","width":24,"height":24,"nodes":[{"type":"circle","cx":15,"cy":12,"r":3},{"type":"rectangle","x":2,"y":5,"width":20,"height":14,"rx":7}]} as const;

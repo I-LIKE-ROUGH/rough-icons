@@ -1,0 +1,1 @@
+export const DecimalsArrowRightSource = {"name":"decimals-arrow-right","width":24,"height":24,"nodes":[{"type":"path","d":"M10 18h10"},{"type":"path","d":"m17 21 3-3-3-3"},{"type":"path","d":"M3 11h.01"},{"type":"rectangle","x":15,"y":3,"width":5,"height":8,"rx":2.5},{"type":"rectangle","x":6,"y":3,"width":5,"height":8,"rx":2.5}]} as const;

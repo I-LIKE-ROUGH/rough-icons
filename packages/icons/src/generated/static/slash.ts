@@ -1,0 +1,1 @@
+export const Slash = {"name":"slash","width":24,"height":24,"paths":[{"d":"M22 2 C17.529 6.671, 11.666 12.393, 2 22 M22 2 C16.255 7.882, 10.173 13.536, 2 22","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

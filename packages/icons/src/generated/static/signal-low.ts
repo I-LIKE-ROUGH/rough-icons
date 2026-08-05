@@ -1,0 +1,1 @@
+export const SignalLow = {"name":"signal-low","width":24,"height":24,"paths":[{"d":"M2 20 C2.004 19.999, 2.008 20, 2.01 20 M2 20 C2.004 20, 2.007 20, 2.01 20","fill":"none","stroke":"currentColor","strokeWidth":2},{"d":"M7 20 C7.041 18.647, 6.805 17.185, 7 16 M7 20 C6.926 18.916, 6.962 17.708, 7 16","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

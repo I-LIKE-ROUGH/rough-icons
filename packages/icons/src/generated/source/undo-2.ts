@@ -1,0 +1,1 @@
+export const Undo2Source = {"name":"undo-2","width":24,"height":24,"nodes":[{"type":"path","d":"M9 14 4 9l5-5"},{"type":"path","d":"M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5a5.5 5.5 0 0 1-5.5 5.5H11"}]} as const;

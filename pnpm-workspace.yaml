@@ -1,0 +1,10 @@
+packages:
+  - apps/*
+  - packages/*
+  - fixtures/*
+
+allowBuilds:
+  esbuild: true
+
+minimumReleaseAgeExclude:
+  - tsx@4.23.7

@@ -1,0 +1,1 @@
+export const GeorgianLariSource = {"name":"georgian-lari","width":24,"height":24,"nodes":[{"type":"path","d":"M11.5 21a7.5 7.5 0 1 1 7.35-9"},{"type":"path","d":"M13 12V3"},{"type":"path","d":"M4 21h16"},{"type":"path","d":"M9 12V3"}]} as const;

@@ -1,0 +1,1 @@
+export const SquarePilcrowSource = {"name":"square-pilcrow","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M12 12H9.5a2.5 2.5 0 0 1 0-5H17"},{"type":"path","d":"M12 7v10"},{"type":"path","d":"M16 7v10"}]} as const;

@@ -1,0 +1,1 @@
+export const GitMergeConflictSource = {"name":"git-merge-conflict","width":24,"height":24,"nodes":[{"type":"path","d":"M12 6h4a2 2 0 0 1 2 2v7"},{"type":"path","d":"M6 12v9"},{"type":"path","d":"M9 3 3 9"},{"type":"path","d":"M9 9 3 3"},{"type":"circle","cx":18,"cy":18,"r":3}]} as const;

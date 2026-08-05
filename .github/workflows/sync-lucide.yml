@@ -1,0 +1,31 @@
+name: Sync Lucide
+on:
+  schedule:
+    - cron: '17 18 * * *'
+  workflow_dispatch:
+    inputs:
+      version:
+        default: latest
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm tsx scripts/sync-lucide.ts "${{ inputs.version || 'latest' }}"
+      - run: pnpm test && pnpm build
+      - uses: peter-evans/create-pull-request@v8
+        with:
+          branch: bot/lucide-sync
+          delete-branch: true
+          commit-message: 'chore: sync Lucide icons'
+          title: 'chore: sync Lucide icons'
+          body: 'Automated exact-version Lucide source sync. Review the generation manifest and generated geometry diff.'

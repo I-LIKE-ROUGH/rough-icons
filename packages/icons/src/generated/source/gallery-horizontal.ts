@@ -1,0 +1,1 @@
+export const GalleryHorizontalSource = {"name":"gallery-horizontal","width":24,"height":24,"nodes":[{"type":"path","d":"M2 3v18"},{"type":"rectangle","x":6,"y":3,"width":12,"height":18,"rx":2},{"type":"path","d":"M22 3v18"}]} as const;

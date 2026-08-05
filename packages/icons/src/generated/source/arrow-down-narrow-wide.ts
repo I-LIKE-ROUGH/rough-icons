@@ -1,0 +1,1 @@
+export const ArrowDownNarrowWideSource = {"name":"arrow-down-narrow-wide","width":24,"height":24,"nodes":[{"type":"path","d":"m3 16 4 4 4-4"},{"type":"path","d":"M7 20V4"},{"type":"path","d":"M11 4h4"},{"type":"path","d":"M11 8h7"},{"type":"path","d":"M11 12h10"}]} as const;

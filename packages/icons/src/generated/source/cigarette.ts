@@ -1,0 +1,1 @@
+export const CigaretteSource = {"name":"cigarette","width":24,"height":24,"nodes":[{"type":"path","d":"M17 12H3a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14"},{"type":"path","d":"M18 8c0-2.5-2-2.5-2-5"},{"type":"path","d":"M21 16a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"},{"type":"path","d":"M22 8c0-2.5-2-2.5-2-5"},{"type":"path","d":"M7 12v4"}]} as const;

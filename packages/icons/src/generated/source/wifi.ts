@@ -1,0 +1,1 @@
+export const WifiSource = {"name":"wifi","width":24,"height":24,"nodes":[{"type":"path","d":"M12 20h.01"},{"type":"path","d":"M2 8.82a15 15 0 0 1 20 0"},{"type":"path","d":"M5 12.859a10 10 0 0 1 14 0"},{"type":"path","d":"M8.5 16.429a5 5 0 0 1 7 0"}]} as const;

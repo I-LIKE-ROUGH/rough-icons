@@ -1,0 +1,1 @@
+export const Tally4Source = {"name":"tally-4","width":24,"height":24,"nodes":[{"type":"path","d":"M4 4v16"},{"type":"path","d":"M9 4v16"},{"type":"path","d":"M14 4v16"},{"type":"path","d":"M19 4v16"}]} as const;

@@ -1,0 +1,1 @@
+export const ChartNoAxesGanttSource = {"name":"chart-no-axes-gantt","width":24,"height":24,"nodes":[{"type":"path","d":"M6 5h12"},{"type":"path","d":"M4 12h10"},{"type":"path","d":"M12 19h8"}]} as const;

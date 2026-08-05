@@ -1,0 +1,1 @@
+export const PoundSterlingSource = {"name":"pound-sterling","width":24,"height":24,"nodes":[{"type":"path","d":"M18 7c0-5.333-8-5.333-8 0"},{"type":"path","d":"M10 7v14"},{"type":"path","d":"M6 21h12"},{"type":"path","d":"M6 13h10"}]} as const;

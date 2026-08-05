@@ -1,0 +1,1 @@
+export const InspectionPanelSource = {"name":"inspection-panel","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M7 7h.01"},{"type":"path","d":"M17 7h.01"},{"type":"path","d":"M7 17h.01"},{"type":"path","d":"M17 17h.01"}]} as const;

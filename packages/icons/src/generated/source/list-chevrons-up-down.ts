@@ -1,0 +1,1 @@
+export const ListChevronsUpDownSource = {"name":"list-chevrons-up-down","width":24,"height":24,"nodes":[{"type":"path","d":"M3 5h8"},{"type":"path","d":"M3 12h8"},{"type":"path","d":"M3 19h8"},{"type":"path","d":"m15 8 3-3 3 3"},{"type":"path","d":"m15 16 3 3 3-3"}]} as const;

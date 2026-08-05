@@ -1,0 +1,1 @@
+export const EqualNotSource = {"name":"equal-not","width":24,"height":24,"nodes":[{"type":"line","x1":5,"y1":9,"x2":19,"y2":9},{"type":"line","x1":5,"y1":15,"x2":19,"y2":15},{"type":"line","x1":19,"y1":5,"x2":5,"y2":19}]} as const;

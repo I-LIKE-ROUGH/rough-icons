@@ -1,0 +1,1 @@
+export const Calendar1Source = {"name":"calendar-1","width":24,"height":24,"nodes":[{"type":"path","d":"M11 13h1v4"},{"type":"path","d":"M16 2v3"},{"type":"path","d":"M3 9h18"},{"type":"path","d":"M8 2v3"},{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2}]} as const;

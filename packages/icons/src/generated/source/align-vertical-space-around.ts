@@ -1,0 +1,1 @@
+export const AlignVerticalSpaceAroundSource = {"name":"align-vertical-space-around","width":24,"height":24,"nodes":[{"type":"rectangle","x":7,"y":9,"width":10,"height":6,"rx":2},{"type":"path","d":"M22 20H2"},{"type":"path","d":"M22 4H2"}]} as const;

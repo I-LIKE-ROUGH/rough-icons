@@ -1,0 +1,1 @@
+export const CirclePileSource = {"name":"circle-pile","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":19,"r":2},{"type":"circle","cx":12,"cy":5,"r":2},{"type":"circle","cx":16,"cy":12,"r":2},{"type":"circle","cx":20,"cy":19,"r":2},{"type":"circle","cx":4,"cy":19,"r":2},{"type":"circle","cx":8,"cy":12,"r":2}]} as const;

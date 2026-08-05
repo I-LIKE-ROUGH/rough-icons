@@ -1,0 +1,1 @@
+export const LayoutFreeformSource = {"name":"layout-freeform","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":7,"height":7,"rx":1},{"type":"rectangle","x":14,"y":4,"width":7,"height":7,"rx":1},{"type":"rectangle","x":4,"y":14,"width":7,"height":7,"rx":1}]} as const;

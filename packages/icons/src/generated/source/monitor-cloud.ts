@@ -1,0 +1,1 @@
+export const MonitorCloudSource = {"name":"monitor-cloud","width":24,"height":24,"nodes":[{"type":"path","d":"M11 13a3 3 0 1 1 2.83-4H14a2 2 0 0 1 0 4z"},{"type":"path","d":"M12 17v4"},{"type":"path","d":"M8 21h8"},{"type":"rectangle","x":2,"y":3,"width":20,"height":14,"rx":2}]} as const;

@@ -1,0 +1,1 @@
+export const AlignHorizontalSpaceAroundSource = {"name":"align-horizontal-space-around","width":24,"height":24,"nodes":[{"type":"rectangle","x":9,"y":7,"width":6,"height":10,"rx":2},{"type":"path","d":"M4 22V2"},{"type":"path","d":"M20 22V2"}]} as const;

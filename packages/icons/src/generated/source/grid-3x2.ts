@@ -1,0 +1,1 @@
+export const Grid3x2Source = {"name":"grid-3x2","width":24,"height":24,"nodes":[{"type":"path","d":"M15 3v18"},{"type":"path","d":"M3 12h18"},{"type":"path","d":"M9 3v18"},{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2}]} as const;

@@ -1,0 +1,1 @@
+export const LaptopMinimalSource = {"name":"laptop-minimal","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":4,"width":18,"height":12,"rx":2,"ry":2},{"type":"line","x1":2,"y1":20,"x2":22,"y2":20}]} as const;

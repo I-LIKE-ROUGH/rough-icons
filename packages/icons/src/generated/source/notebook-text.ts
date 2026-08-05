@@ -1,0 +1,1 @@
+export const NotebookTextSource = {"name":"notebook-text","width":24,"height":24,"nodes":[{"type":"path","d":"M2 6h4"},{"type":"path","d":"M2 10h4"},{"type":"path","d":"M2 14h4"},{"type":"path","d":"M2 18h4"},{"type":"rectangle","x":4,"y":2,"width":16,"height":20,"rx":2},{"type":"path","d":"M9.5 8h5"},{"type":"path","d":"M9.5 12H16"},{"type":"path","d":"M9.5 16H14"}]} as const;

@@ -1,0 +1,1 @@
+export const ChartBarStackedSource = {"name":"chart-bar-stacked","width":24,"height":24,"nodes":[{"type":"path","d":"M11 13v4"},{"type":"path","d":"M15 5v4"},{"type":"path","d":"M3 3v16a2 2 0 0 0 2 2h16"},{"type":"rectangle","x":7,"y":13,"width":9,"height":4,"rx":1},{"type":"rectangle","x":7,"y":5,"width":12,"height":4,"rx":1}]} as const;

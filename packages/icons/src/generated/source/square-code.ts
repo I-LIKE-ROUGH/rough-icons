@@ -1,0 +1,1 @@
+export const SquareCodeSource = {"name":"square-code","width":24,"height":24,"nodes":[{"type":"path","d":"m10 9-3 3 3 3"},{"type":"path","d":"m14 15 3-3-3-3"},{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2}]} as const;

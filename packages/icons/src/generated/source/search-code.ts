@@ -1,0 +1,1 @@
+export const SearchCodeSource = {"name":"search-code","width":24,"height":24,"nodes":[{"type":"path","d":"m13 13.5 2-2.5-2-2.5"},{"type":"path","d":"m21 21-4.3-4.3"},{"type":"path","d":"M9 8.5 7 11l2 2.5"},{"type":"circle","cx":11,"cy":11,"r":8}]} as const;

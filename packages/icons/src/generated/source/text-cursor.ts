@@ -1,0 +1,1 @@
+export const TextCursorSource = {"name":"text-cursor","width":24,"height":24,"nodes":[{"type":"path","d":"M17 22h-1a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4h1"},{"type":"path","d":"M7 22h1a4 4 0 0 0 4-4"},{"type":"path","d":"M7 2h1a4 4 0 0 1 4 4"}]} as const;

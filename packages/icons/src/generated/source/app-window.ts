@@ -1,0 +1,1 @@
+export const AppWindowSource = {"name":"app-window","width":24,"height":24,"nodes":[{"type":"rectangle","x":2,"y":4,"width":20,"height":16,"rx":2},{"type":"path","d":"M10 4v4"},{"type":"path","d":"M2 8h20"},{"type":"path","d":"M6 4v4"}]} as const;

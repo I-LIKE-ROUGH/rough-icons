@@ -1,0 +1,1 @@
+export const GalleryVerticalSource = {"name":"gallery-vertical","width":24,"height":24,"nodes":[{"type":"path","d":"M3 2h18"},{"type":"rectangle","x":3,"y":6,"width":18,"height":12,"rx":2},{"type":"path","d":"M3 22h18"}]} as const;

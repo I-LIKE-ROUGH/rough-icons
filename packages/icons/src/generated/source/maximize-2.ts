@@ -1,0 +1,1 @@
+export const Maximize2Source = {"name":"maximize-2","width":24,"height":24,"nodes":[{"type":"path","d":"M15 3h6v6"},{"type":"path","d":"m21 3-7 7"},{"type":"path","d":"m3 21 7-7"},{"type":"path","d":"M9 21H3v-6"}]} as const;

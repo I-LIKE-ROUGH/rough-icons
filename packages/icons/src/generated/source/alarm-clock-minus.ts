@@ -1,0 +1,1 @@
+export const AlarmClockMinusSource = {"name":"alarm-clock-minus","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":13,"r":8},{"type":"path","d":"M5 3 2 6"},{"type":"path","d":"m22 6-3-3"},{"type":"path","d":"M6.38 18.7 4 21"},{"type":"path","d":"M17.64 18.67 20 21"},{"type":"path","d":"M9 13h6"}]} as const;

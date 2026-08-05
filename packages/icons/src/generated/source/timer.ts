@@ -1,0 +1,1 @@
+export const TimerSource = {"name":"timer","width":24,"height":24,"nodes":[{"type":"line","x1":10,"y1":2,"x2":14,"y2":2},{"type":"line","x1":12,"y1":14,"x2":15,"y2":11},{"type":"circle","cx":12,"cy":14,"r":8}]} as const;

@@ -1,0 +1,1 @@
+export const PictureInPictureSource = {"name":"picture-in-picture","width":24,"height":24,"nodes":[{"type":"path","d":"M2 10h6V4"},{"type":"path","d":"m2 4 6 6"},{"type":"path","d":"M21 10V7a2 2 0 0 0-2-2h-7"},{"type":"path","d":"M3 14v2a2 2 0 0 0 2 2h3"},{"type":"rectangle","x":12,"y":14,"width":10,"height":7,"rx":1}]} as const;

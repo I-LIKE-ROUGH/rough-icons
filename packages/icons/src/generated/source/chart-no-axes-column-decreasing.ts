@@ -1,0 +1,1 @@
+export const ChartNoAxesColumnDecreasingSource = {"name":"chart-no-axes-column-decreasing","width":24,"height":24,"nodes":[{"type":"path","d":"M5 21V3"},{"type":"path","d":"M12 21V9"},{"type":"path","d":"M19 21v-6"}]} as const;

@@ -1,0 +1,1 @@
+export const DivideSource = {"name":"divide","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":6,"r":1},{"type":"line","x1":5,"y1":12,"x2":19,"y2":12},{"type":"circle","cx":12,"cy":18,"r":1}]} as const;

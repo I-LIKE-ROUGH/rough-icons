@@ -1,0 +1,1 @@
+export const AlignHorizontalSpaceBetweenSource = {"name":"align-horizontal-space-between","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":5,"width":6,"height":14,"rx":2},{"type":"rectangle","x":15,"y":7,"width":6,"height":10,"rx":2},{"type":"path","d":"M3 2v20"},{"type":"path","d":"M21 2v20"}]} as const;

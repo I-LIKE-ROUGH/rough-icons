@@ -1,0 +1,1 @@
+export const MoveDiagonalSource = {"name":"move-diagonal","width":24,"height":24,"nodes":[{"type":"path","d":"M11 19H5v-6"},{"type":"path","d":"M13 5h6v6"},{"type":"path","d":"M19 5 5 19"}]} as const;

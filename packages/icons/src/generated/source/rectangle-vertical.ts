@@ -1,0 +1,1 @@
+export const RectangleVerticalSource = {"name":"rectangle-vertical","width":24,"height":24,"nodes":[{"type":"rectangle","x":6,"y":2,"width":12,"height":20,"rx":2}]} as const;

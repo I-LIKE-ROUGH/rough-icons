@@ -1,0 +1,1 @@
+export const Share2Source = {"name":"share-2","width":24,"height":24,"nodes":[{"type":"circle","cx":18,"cy":5,"r":3},{"type":"circle","cx":6,"cy":12,"r":3},{"type":"circle","cx":18,"cy":19,"r":3},{"type":"line","x1":8.59,"y1":13.51,"x2":15.42,"y2":17.49},{"type":"line","x1":15.41,"y1":6.51,"x2":8.59,"y2":10.49}]} as const;

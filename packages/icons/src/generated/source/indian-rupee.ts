@@ -1,0 +1,1 @@
+export const IndianRupeeSource = {"name":"indian-rupee","width":24,"height":24,"nodes":[{"type":"path","d":"M6 3h12"},{"type":"path","d":"M6 8h12"},{"type":"path","d":"m6 13 8.5 8"},{"type":"path","d":"M6 13h3"},{"type":"path","d":"M9 13c6.667 0 6.667-10 0-10"}]} as const;

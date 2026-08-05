@@ -1,0 +1,1 @@
+export const CopyMinusSource = {"name":"copy-minus","width":24,"height":24,"nodes":[{"type":"line","x1":12,"y1":15,"x2":18,"y2":15},{"type":"rectangle","x":8,"y":8,"width":14,"height":14,"rx":2,"ry":2},{"type":"path","d":"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"}]} as const;

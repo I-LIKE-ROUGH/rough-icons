@@ -1,0 +1,1 @@
+export const PanelLeftOpenSource = {"name":"panel-left-open","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M9 3v18"},{"type":"path","d":"m14 9 3 3-3 3"}]} as const;

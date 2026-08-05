@@ -1,0 +1,1 @@
+export const ListEndSource = {"name":"list-end","width":24,"height":24,"nodes":[{"type":"path","d":"M16 5H3"},{"type":"path","d":"M16 12H3"},{"type":"path","d":"M9 19H3"},{"type":"path","d":"m16 16-3 3 3 3"},{"type":"path","d":"M21 5v12a2 2 0 0 1-2 2h-6"}]} as const;

@@ -1,0 +1,23 @@
+{
+  "name": "@rough-lucide/site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate-assets": "tsx scripts/generate-site-assets.ts",
+    "build": "pnpm generate-assets && vite build",
+    "dev": "pnpm generate-assets && vite",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@rough-lucide/core": "workspace:*",
+    "@rough-lucide/icons": "workspace:*",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.5",
+    "vite": "8.2.0"
+  }
+}

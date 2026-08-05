@@ -1,0 +1,1 @@
+export const FormSource = {"name":"form","width":24,"height":24,"nodes":[{"type":"path","d":"M4 14h6"},{"type":"path","d":"M4 2h10"},{"type":"rectangle","x":4,"y":18,"width":16,"height":4,"rx":1},{"type":"rectangle","x":4,"y":6,"width":16,"height":4,"rx":1}]} as const;

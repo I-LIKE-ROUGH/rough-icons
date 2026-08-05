@@ -1,0 +1,1 @@
+export const ListCheckSource = {"name":"list-check","width":24,"height":24,"nodes":[{"type":"path","d":"M16 5H3"},{"type":"path","d":"M16 12H3"},{"type":"path","d":"M11 19H3"},{"type":"path","d":"m15 18 2 2 4-4"}]} as const;

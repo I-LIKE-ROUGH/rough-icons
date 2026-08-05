@@ -1,0 +1,1 @@
+export const SquareSigmaSource = {"name":"square-sigma","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M16 8.9V7H8l4 5-4 5h8v-1.9"}]} as const;

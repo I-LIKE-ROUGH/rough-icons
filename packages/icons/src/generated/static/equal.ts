@@ -1,0 +1,1 @@
+export const Equal = {"name":"equal","width":24,"height":24,"paths":[{"d":"M5 9 C10.428 9.09, 14.826 8.594, 19 9 M5 9 C9.667 8.789, 14.441 8.803, 19 9","fill":"none","stroke":"currentColor","strokeWidth":2},{"d":"M5 15 C8.345 14.759, 13.094 15.605, 19 15 M5 15 C8.698 15.17, 12.502 14.74, 19 15","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

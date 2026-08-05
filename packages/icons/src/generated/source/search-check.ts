@@ -1,0 +1,1 @@
+export const SearchCheckSource = {"name":"search-check","width":24,"height":24,"nodes":[{"type":"path","d":"m8 11 2 2 4-4"},{"type":"circle","cx":11,"cy":11,"r":8},{"type":"path","d":"m21 21-4.3-4.3"}]} as const;

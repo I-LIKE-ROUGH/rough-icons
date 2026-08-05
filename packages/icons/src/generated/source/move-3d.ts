@@ -1,0 +1,1 @@
+export const Move3dSource = {"name":"move-3d","width":24,"height":24,"nodes":[{"type":"path","d":"M5 3v16h16"},{"type":"path","d":"m5 19 6-6"},{"type":"path","d":"m2 6 3-3 3 3"},{"type":"path","d":"m18 16 3 3-3 3"}]} as const;

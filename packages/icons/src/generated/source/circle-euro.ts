@@ -1,0 +1,1 @@
+export const CircleEuroSource = {"name":"circle-euro","width":24,"height":24,"nodes":[{"type":"path","d":"M15 9.4a4 4 0 1 0 0 5.2"},{"type":"path","d":"M7 12h5"},{"type":"circle","cx":12,"cy":12,"r":10}]} as const;

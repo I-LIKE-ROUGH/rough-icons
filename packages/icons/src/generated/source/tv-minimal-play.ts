@@ -1,0 +1,1 @@
+export const TvMinimalPlaySource = {"name":"tv-minimal-play","width":24,"height":24,"nodes":[{"type":"path","d":"M15.033 9.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56V7.648a.645.645 0 0 1 .967-.56z"},{"type":"path","d":"M7 21h10"},{"type":"rectangle","x":2,"y":3,"width":20,"height":14,"rx":2}]} as const;

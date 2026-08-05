@@ -1,0 +1,1 @@
+export const UserLockSource = {"name":"user-lock","width":24,"height":24,"nodes":[{"type":"path","d":"M19 16v-2a2 2 0 0 0-4 0v2"},{"type":"path","d":"M9.5 15H7a4 4 0 0 0-4 4v2"},{"type":"circle","cx":10,"cy":7,"r":4},{"type":"rectangle","x":13,"y":16,"width":8,"height":5,"rx":0.899}]} as const;

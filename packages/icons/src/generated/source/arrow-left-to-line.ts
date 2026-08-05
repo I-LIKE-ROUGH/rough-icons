@@ -1,0 +1,1 @@
+export const ArrowLeftToLineSource = {"name":"arrow-left-to-line","width":24,"height":24,"nodes":[{"type":"path","d":"M3 19V5"},{"type":"path","d":"m13 6-6 6 6 6"},{"type":"path","d":"M7 12h14"}]} as const;

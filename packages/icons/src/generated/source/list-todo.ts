@@ -1,0 +1,1 @@
+export const ListTodoSource = {"name":"list-todo","width":24,"height":24,"nodes":[{"type":"path","d":"M13 5h8"},{"type":"path","d":"M13 12h8"},{"type":"path","d":"M13 19h8"},{"type":"path","d":"m3 17 2 2 4-4"},{"type":"rectangle","x":3,"y":4,"width":6,"height":6,"rx":1}]} as const;

@@ -1,0 +1,1 @@
+export const ClockArrowUpSource = {"name":"clock-arrow-up","width":24,"height":24,"nodes":[{"type":"path","d":"M12 6v6l1.56.78"},{"type":"path","d":"M13.227 21.925a10 10 0 1 1 8.767-9.588"},{"type":"path","d":"m14 18 4-4 4 4"},{"type":"path","d":"M18 22v-8"}]} as const;

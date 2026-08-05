@@ -1,0 +1,1 @@
+export const CalendarXSource = {"name":"calendar-x","width":24,"height":24,"nodes":[{"type":"path","d":"M8 2v3"},{"type":"path","d":"M16 2v3"},{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M3 9h18"},{"type":"path","d":"m14 13-4 4"},{"type":"path","d":"m10 13 4 4"}]} as const;

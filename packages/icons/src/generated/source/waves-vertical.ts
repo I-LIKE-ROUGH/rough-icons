@@ -1,0 +1,1 @@
+export const WavesVerticalSource = {"name":"waves-vertical","width":24,"height":24,"nodes":[{"type":"path","d":"M12 2q2 2.5 0 5t0 5 0 5 0 5"},{"type":"path","d":"M19 2q2 2.5 0 5t0 5 0 5 0 5"},{"type":"path","d":"M5 2q2 2.5 0 5t0 5 0 5 0 5"}]} as const;

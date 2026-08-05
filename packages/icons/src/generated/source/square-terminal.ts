@@ -1,0 +1,1 @@
+export const SquareTerminalSource = {"name":"square-terminal","width":24,"height":24,"nodes":[{"type":"path","d":"m7 11 2-2-2-2"},{"type":"path","d":"M11 13h4"},{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2,"ry":2}]} as const;

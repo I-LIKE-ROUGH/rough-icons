@@ -1,0 +1,1 @@
+export const TouchpadSource = {"name":"touchpad","width":24,"height":24,"nodes":[{"type":"rectangle","x":2,"y":4,"width":20,"height":16,"rx":2},{"type":"path","d":"M2 14h20"},{"type":"path","d":"M12 20v-6"}]} as const;

@@ -1,0 +1,1 @@
+export const FilmSource = {"name":"film","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M7 3v18"},{"type":"path","d":"M3 7.5h4"},{"type":"path","d":"M3 12h18"},{"type":"path","d":"M3 16.5h4"},{"type":"path","d":"M17 3v18"},{"type":"path","d":"M17 7.5h4"},{"type":"path","d":"M17 16.5h4"}]} as const;

@@ -1,0 +1,1 @@
+export const SwordSource = {"name":"sword","width":24,"height":24,"nodes":[{"type":"path","d":"m11 19-6-6"},{"type":"path","d":"m5 21-2-2"},{"type":"path","d":"m8 16-4 4"},{"type":"path","d":"M9.5 17.5 21 6V3h-3L6.5 14.5"}]} as const;

@@ -1,0 +1,1 @@
+export const WebcamSource = {"name":"webcam","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":10,"r":8},{"type":"circle","cx":12,"cy":10,"r":3},{"type":"path","d":"M7 22h10"},{"type":"path","d":"M12 22v-4"}]} as const;

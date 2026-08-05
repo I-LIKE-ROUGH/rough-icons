@@ -1,0 +1,1 @@
+export const LineDotRightHorizontalSource = {"name":"line-dot-right-horizontal","width":24,"height":24,"nodes":[{"type":"path","d":"M 3 12 L 15 12"},{"type":"circle","cx":18,"cy":12,"r":3}]} as const;

@@ -1,0 +1,1 @@
+export const SquareMenuSource = {"name":"square-menu","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M7 8h10"},{"type":"path","d":"M7 12h10"},{"type":"path","d":"M7 16h10"}]} as const;

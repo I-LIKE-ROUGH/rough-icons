@@ -1,0 +1,1 @@
+export const ChartColumnStackedSource = {"name":"chart-column-stacked","width":24,"height":24,"nodes":[{"type":"path","d":"M11 13H7"},{"type":"path","d":"M19 9h-4"},{"type":"path","d":"M3 3v16a2 2 0 0 0 2 2h16"},{"type":"rectangle","x":15,"y":5,"width":4,"height":12,"rx":1},{"type":"rectangle","x":7,"y":8,"width":4,"height":9,"rx":1}]} as const;

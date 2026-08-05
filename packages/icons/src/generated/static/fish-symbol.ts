@@ -1,0 +1,1 @@
+export const FishSymbol = {"name":"fish-symbol","width":24,"height":24,"paths":[{"d":"M2 16 C2.292 15.718, 11.264 0.532, 22 12 M2 16 C1.936 15.654, 10.204 1.102, 22 12 M22 12 C10.749 22.379, 1.452 7.898, 2 8 M22 12 C10.234 23.886, 2.874 8.533, 2 8","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

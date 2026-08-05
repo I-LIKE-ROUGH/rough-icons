@@ -1,0 +1,1 @@
+export const Dice6Source = {"name":"dice-6","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2,"ry":2},{"type":"path","d":"M16 8h.01"},{"type":"path","d":"M16 12h.01"},{"type":"path","d":"M16 16h.01"},{"type":"path","d":"M8 8h.01"},{"type":"path","d":"M8 12h.01"},{"type":"path","d":"M8 16h.01"}]} as const;

@@ -1,0 +1,1 @@
+export const MoveVerticalSource = {"name":"move-vertical","width":24,"height":24,"nodes":[{"type":"path","d":"M12 2v20"},{"type":"path","d":"m8 18 4 4 4-4"},{"type":"path","d":"m8 6 4-4 4 4"}]} as const;

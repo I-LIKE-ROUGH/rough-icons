@@ -1,0 +1,1 @@
+export const CurrencySource = {"name":"currency","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":12,"r":8},{"type":"line","x1":3,"y1":3,"x2":6,"y2":6},{"type":"line","x1":21,"y1":3,"x2":18,"y2":6},{"type":"line","x1":3,"y1":21,"x2":6,"y2":18},{"type":"line","x1":21,"y1":21,"x2":18,"y2":18}]} as const;

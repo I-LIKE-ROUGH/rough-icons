@@ -1,0 +1,1 @@
+export const ChartBarDecreasingSource = {"name":"chart-bar-decreasing","width":24,"height":24,"nodes":[{"type":"path","d":"M3 3v16a2 2 0 0 0 2 2h16"},{"type":"path","d":"M7 11h8"},{"type":"path","d":"M7 16h3"},{"type":"path","d":"M7 6h12"}]} as const;

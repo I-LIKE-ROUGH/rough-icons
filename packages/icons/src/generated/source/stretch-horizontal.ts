@@ -1,0 +1,1 @@
+export const StretchHorizontalSource = {"name":"stretch-horizontal","width":24,"height":24,"nodes":[{"type":"rectangle","x":2,"y":4,"width":20,"height":6,"rx":2},{"type":"rectangle","x":2,"y":14,"width":20,"height":6,"rx":2}]} as const;

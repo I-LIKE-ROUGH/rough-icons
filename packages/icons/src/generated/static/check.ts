@@ -1,0 +1,1 @@
+export const Check = {"name":"check","width":24,"height":24,"paths":[{"d":"M20 6 C16.081 10.279, 11.926 14.071, 9 17 M20 6 C16.309 9.084, 12.602 12.902, 9 17 M9 17 C7.644 15.408, 5.98 13.758, 4 12 M9 17 C7.209 14.87, 5.124 13.296, 4 12","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

@@ -1,0 +1,1 @@
+export const GalleryThumbnailsSource = {"name":"gallery-thumbnails","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":14,"rx":2},{"type":"path","d":"M4 21h1"},{"type":"path","d":"M9 21h1"},{"type":"path","d":"M14 21h1"},{"type":"path","d":"M19 21h1"}]} as const;

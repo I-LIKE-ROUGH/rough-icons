@@ -1,0 +1,1 @@
+export const MoveHorizontalSource = {"name":"move-horizontal","width":24,"height":24,"nodes":[{"type":"path","d":"m18 8 4 4-4 4"},{"type":"path","d":"M2 12h20"},{"type":"path","d":"m6 8-4 4 4 4"}]} as const;

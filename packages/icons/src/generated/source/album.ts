@@ -1,0 +1,1 @@
+export const AlbumSource = {"name":"album","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2,"ry":2},{"type":"polyline","points":[[11,3],[11,11],[14,8],[17,11],[17,3]]}]} as const;

@@ -1,0 +1,1 @@
+export const SquareParkingSource = {"name":"square-parking","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M9 17V7h4a3 3 0 0 1 0 6H9"}]} as const;

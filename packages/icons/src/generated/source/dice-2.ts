@@ -1,0 +1,1 @@
+export const Dice2Source = {"name":"dice-2","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2,"ry":2},{"type":"path","d":"M15 9h.01"},{"type":"path","d":"M9 15h.01"}]} as const;

@@ -1,0 +1,1 @@
+export const Disc3Source = {"name":"disc-3","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":12,"r":10},{"type":"path","d":"M6 12c0-1.7.7-3.2 1.8-4.2"},{"type":"circle","cx":12,"cy":12,"r":2},{"type":"path","d":"M18 12c0 1.7-.7 3.2-1.8 4.2"}]} as const;

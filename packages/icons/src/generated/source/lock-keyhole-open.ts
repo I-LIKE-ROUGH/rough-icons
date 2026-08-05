@@ -1,0 +1,1 @@
+export const LockKeyholeOpenSource = {"name":"lock-keyhole-open","width":24,"height":24,"nodes":[{"type":"circle","cx":12,"cy":16,"r":1},{"type":"rectangle","x":3,"y":10,"width":18,"height":12,"rx":2},{"type":"path","d":"M7 10V7a5 5 0 0 1 9.33-2.5"}]} as const;

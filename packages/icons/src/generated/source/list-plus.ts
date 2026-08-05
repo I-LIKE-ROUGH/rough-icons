@@ -1,0 +1,1 @@
+export const ListPlusSource = {"name":"list-plus","width":24,"height":24,"nodes":[{"type":"path","d":"M16 5H3"},{"type":"path","d":"M11 12H3"},{"type":"path","d":"M16 19H3"},{"type":"path","d":"M18 9v6"},{"type":"path","d":"M21 12h-6"}]} as const;

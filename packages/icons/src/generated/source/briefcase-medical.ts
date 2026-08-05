@@ -1,0 +1,1 @@
+export const BriefcaseMedicalSource = {"name":"briefcase-medical","width":24,"height":24,"nodes":[{"type":"path","d":"M12 11v4"},{"type":"path","d":"M14 13h-4"},{"type":"path","d":"M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"},{"type":"path","d":"M18 6v14"},{"type":"path","d":"M6 6v14"},{"type":"rectangle","x":2,"y":6,"width":20,"height":14,"rx":2}]} as const;

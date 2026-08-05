@@ -1,0 +1,1 @@
+export const LigatureSource = {"name":"ligature","width":24,"height":24,"nodes":[{"type":"path","d":"M14 12h2v8"},{"type":"path","d":"M14 20h4"},{"type":"path","d":"M6 12h4"},{"type":"path","d":"M6 20h4"},{"type":"path","d":"M8 20V8a4 4 0 0 1 7.464-2"}]} as const;

@@ -1,0 +1,14 @@
+{
+  "name": "@rough-lucide/generator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/cli.ts",
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@lucide/icons": "1.28.0",
+    "@rough-lucide/core": "workspace:*"
+  }
+}

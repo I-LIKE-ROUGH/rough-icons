@@ -1,0 +1,1 @@
+export const AlignVerticalSpaceBetweenSource = {"name":"align-vertical-space-between","width":24,"height":24,"nodes":[{"type":"rectangle","x":5,"y":15,"width":14,"height":6,"rx":2},{"type":"rectangle","x":7,"y":3,"width":10,"height":6,"rx":2},{"type":"path","d":"M2 21h20"},{"type":"path","d":"M2 3h20"}]} as const;

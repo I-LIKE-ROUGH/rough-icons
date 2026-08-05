@@ -1,0 +1,1 @@
+export const WorkflowSource = {"name":"workflow","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":8,"height":8,"rx":2},{"type":"path","d":"M7 11v4a2 2 0 0 0 2 2h4"},{"type":"rectangle","x":13,"y":13,"width":8,"height":8,"rx":2}]} as const;

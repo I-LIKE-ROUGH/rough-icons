@@ -1,0 +1,1 @@
+export const MonitorXSource = {"name":"monitor-x","width":24,"height":24,"nodes":[{"type":"path","d":"m14.5 12.5-5-5"},{"type":"path","d":"m9.5 12.5 5-5"},{"type":"rectangle","x":2,"y":3,"width":20,"height":14,"rx":2},{"type":"path","d":"M12 17v4"},{"type":"path","d":"M8 21h8"}]} as const;

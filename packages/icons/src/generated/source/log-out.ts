@@ -1,0 +1,1 @@
+export const LogOutSource = {"name":"log-out","width":24,"height":24,"nodes":[{"type":"path","d":"m16 17 5-5-5-5"},{"type":"path","d":"M21 12H9"},{"type":"path","d":"M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"}]} as const;

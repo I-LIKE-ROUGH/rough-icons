@@ -1,0 +1,1 @@
+export const FlipHorizontal2Source = {"name":"flip-horizontal-2","width":24,"height":24,"nodes":[{"type":"path","d":"m3 7 5 5-5 5V7"},{"type":"path","d":"m21 7-5 5 5 5V7"},{"type":"path","d":"M12 20v2"},{"type":"path","d":"M12 14v2"},{"type":"path","d":"M12 8v2"},{"type":"path","d":"M12 2v2"}]} as const;

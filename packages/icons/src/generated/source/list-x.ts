@@ -1,0 +1,1 @@
+export const ListXSource = {"name":"list-x","width":24,"height":24,"nodes":[{"type":"path","d":"M16 5H3"},{"type":"path","d":"M11 12H3"},{"type":"path","d":"M16 19H3"},{"type":"path","d":"m15.5 9.5 5 5"},{"type":"path","d":"m20.5 9.5-5 5"}]} as const;

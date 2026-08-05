@@ -1,0 +1,1 @@
+export const TextAlignCenterSource = {"name":"text-align-center","width":24,"height":24,"nodes":[{"type":"path","d":"M21 5H3"},{"type":"path","d":"M17 12H7"},{"type":"path","d":"M19 19H5"}]} as const;

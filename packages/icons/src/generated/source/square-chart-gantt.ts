@@ -1,0 +1,1 @@
+export const SquareChartGanttSource = {"name":"square-chart-gantt","width":24,"height":24,"nodes":[{"type":"rectangle","x":3,"y":3,"width":18,"height":18,"rx":2},{"type":"path","d":"M9 8h7"},{"type":"path","d":"M8 12h6"},{"type":"path","d":"M11 16h5"}]} as const;

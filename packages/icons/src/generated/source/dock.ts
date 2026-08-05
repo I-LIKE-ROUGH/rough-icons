@@ -1,0 +1,1 @@
+export const DockSource = {"name":"dock","width":24,"height":24,"nodes":[{"type":"path","d":"M2 8h20"},{"type":"rectangle","x":2,"y":4,"width":20,"height":16,"rx":2},{"type":"path","d":"M6 16h12"}]} as const;

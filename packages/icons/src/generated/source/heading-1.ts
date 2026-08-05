@@ -1,0 +1,1 @@
+export const Heading1Source = {"name":"heading-1","width":24,"height":24,"nodes":[{"type":"path","d":"M4 12h8"},{"type":"path","d":"M4 18V6"},{"type":"path","d":"M12 18V6"},{"type":"path","d":"m17 12 3-2v8"}]} as const;

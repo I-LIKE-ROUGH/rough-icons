@@ -1,0 +1,1 @@
+export const TextAlignJustifySource = {"name":"text-align-justify","width":24,"height":24,"nodes":[{"type":"path","d":"M3 5h18"},{"type":"path","d":"M3 12h18"},{"type":"path","d":"M3 19h18"}]} as const;

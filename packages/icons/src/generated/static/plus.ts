@@ -1,0 +1,1 @@
+export const Plus = {"name":"plus","width":24,"height":24,"paths":[{"d":"M5 12 C9.221 11.626, 15.261 12.634, 19 12 M5 12 C9.825 12.179, 14.595 12.215, 19 12","fill":"none","stroke":"currentColor","strokeWidth":2},{"d":"M12 5 C12.239 9.517, 11.965 13.556, 12 19 M12 5 C11.729 8.897, 12.19 11.978, 12 19","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;

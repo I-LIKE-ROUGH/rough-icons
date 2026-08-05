@@ -1,0 +1,1 @@
+export const UserRoundKeySource = {"name":"user-round-key","width":24,"height":24,"nodes":[{"type":"path","d":"M19 11v6"},{"type":"path","d":"M19 13h2"},{"type":"path","d":"M2 21a8 8 0 0 1 12.868-6.349"},{"type":"circle","cx":10,"cy":8,"r":5},{"type":"circle","cx":19,"cy":19,"r":2}]} as const;

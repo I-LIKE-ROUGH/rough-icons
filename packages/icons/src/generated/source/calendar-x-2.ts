@@ -1,0 +1,1 @@
+export const CalendarX2Source = {"name":"calendar-x-2","width":24,"height":24,"nodes":[{"type":"path","d":"M16 2v3"},{"type":"path","d":"m17 16 5 5"},{"type":"path","d":"m17 21 5-5"},{"type":"path","d":"M21 12V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8"},{"type":"path","d":"M3 9h18"},{"type":"path","d":"M8 2v3"}]} as const;
