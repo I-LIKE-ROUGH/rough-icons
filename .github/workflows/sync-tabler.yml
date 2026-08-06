@@ -1,0 +1,31 @@
+name: Sync Tabler
+on:
+  schedule:
+    - cron: '47 18 * * *'
+  workflow_dispatch:
+    inputs:
+      version:
+        default: latest
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm tsx scripts/sync-tabler.ts "${{ inputs.version || 'latest' }}"
+      - run: pnpm test && pnpm build
+      - uses: peter-evans/create-pull-request@v8
+        with:
+          branch: bot/tabler-sync
+          delete-branch: true
+          commit-message: 'chore: sync Tabler icons'
+          title: 'chore: sync Tabler icons'
+          body: 'Automated exact-version Tabler source sync. Review the generation manifest, audit report, and generated geometry diff.'
