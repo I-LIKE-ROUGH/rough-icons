@@ -77,106 +77,214 @@ function App() {
         tokens.every((token) => icon.searchText.includes(token)),
     );
   }, [icons, query, iconSet, iconStyle]);
+  const collectionCounts = useMemo(
+    () => ({
+      lucide: icons.filter((icon) => icon.iconSet === 'lucide').length,
+      tabler: icons.filter((icon) => icon.iconSet === 'tabler').length,
+    }),
+    [icons],
+  );
+  const showCollection = (collection: 'lucide' | 'tabler') => {
+    state.setIconSet(collection);
+    document.getElementById('icons')?.scrollIntoView({ behavior: 'smooth' });
+  };
   useEffect(() => setLimit(120), [query, iconSet, iconStyle]);
   return (
     <>
       <header>
         <a className="brand" href={base}>
-          〰 Rough Lucide
+          <span className="brand-mark" aria-hidden="true">
+            〰
+          </span>
+          Rough Icons
         </a>
         <nav>
+          <a href="#collections">Collections</a>
+          <a href="#icons">Explorer</a>
           <a href="https://github.com/I-LIKE-ROUGH/rough-icons">GitHub</a>
-          <a href="https://www.npmjs.com/package/@rough-lucide/react">npm</a>
         </nav>
       </header>
       <main>
         <section className="hero">
-          <p className="eyebrow">Lucide, with a human hand.</p>
-          <h1>
-            Hand-drawn
-            <br />
-            <em>Lucide icons.</em>
-          </h1>
-          <p className="lede">
-            Deterministic by default, customizable when needed. No runtime cost
-            unless you ask for it.
-          </p>
-          <div className="actions">
-            <a className="button primary" href="#icons">
-              Browse icons
-            </a>
-            <code>pnpm add @rough-lucide/react</code>
+          <div className="hero-copy">
+            <p className="eyebrow">Lucide + Tabler, redrawn by hand</p>
+            <h1>
+              Two icon
+              <br />
+              languages.
+              <br />
+              <em>One human hand.</em>
+            </h1>
+            <p className="lede">
+              Thousands of familiar Lucide and Tabler icons, transformed into
+              deterministic, expressive marks for React and SVG.
+            </p>
+            <div className="actions">
+              <a className="button primary" href="#icons">
+                Explore all icons <span aria-hidden="true">↘</span>
+              </a>
+              <a className="text-link" href="#install">
+                Installation guide
+              </a>
+            </div>
           </div>
-          <div className="hero-icons" aria-hidden="true">
-            {['sparkles', 'heart', 'coffee', 'rocket', 'house', 'flower-2'].map(
-              (name) => (
+          <div className="hero-board" aria-hidden="true">
+            <p>Same idea. Different vocabulary.</p>
+            <div className="hero-pair hero-pair-lucide">
+              <span>Lucide / house</span>
+              <img src={`${base}icons/lucide/outline/house.svg`} />
+            </div>
+            <div className="hero-pair hero-pair-tabler">
+              <span>Tabler / home</span>
+              <img src={`${base}icons/tabler/outline/home.svg`} />
+            </div>
+            <div className="hero-swarm">
+              {[
+                ['lucide', 'outline', 'sparkles'],
+                ['tabler', 'filled', 'heart'],
+                ['tabler', 'outline', 'coffee'],
+                ['lucide', 'outline', 'rocket'],
+                ['tabler', 'filled', 'flower'],
+                ['lucide', 'outline', 'wand-sparkles'],
+              ].map(([set, style, name]) => (
                 <img
-                  key={name}
-                  src={`${base}icons/lucide/outline/${name}.svg`}
+                  key={`${set}-${style}-${name}`}
+                  src={`${base}icons/${set}/${style}/${name}.svg`}
                 />
-              ),
-            )}
+              ))}
+            </div>
           </div>
         </section>
-        <section className="features">
+        <section className="marquee" aria-label="Project qualities">
+          <p>
+            <span>STATIC FIRST</span> · <span>RUNTIME READY</span> ·{' '}
+            <span>DETERMINISTIC</span> · <span>OPEN SOURCE</span> ·{' '}
+            <span>6,000+ ICONS</span>
+          </p>
+        </section>
+        <section id="collections" className="collections">
+          <div className="section-intro">
+            <p className="eyebrow">Choose your visual language</p>
+            <h2>Built from icons you already know.</h2>
+            <p>
+              Keep the source library's personality. Add the warmth and
+              variation of a hand-drawn line.
+            </p>
+          </div>
+          <div className="collection-cards">
+            <article className="collection-card lucide-card">
+              <div className="card-number">01</div>
+              <div className="card-icons" aria-hidden="true">
+                {['circle', 'triangle', 'square', 'pentagon'].map((name) => (
+                  <img
+                    key={name}
+                    src={`${base}icons/lucide/outline/${name}.svg`}
+                  />
+                ))}
+              </div>
+              <p className="eyebrow">Crisp · Minimal · Familiar</p>
+              <h3>Lucide</h3>
+              <p>
+                A clean outline system with a restrained vocabulary, now with
+                just enough wobble.
+              </p>
+              <div className="card-meta">
+                <span>{collectionCounts.lucide.toLocaleString()} icons</span>
+                <button onClick={() => showCollection('lucide')}>
+                  Browse Lucide <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            </article>
+            <article className="collection-card tabler-card">
+              <div className="card-number">02</div>
+              <div className="card-icons" aria-hidden="true">
+                {['circle', 'triangle', 'square', 'pentagon'].map((name) => (
+                  <img
+                    key={name}
+                    src={`${base}icons/tabler/filled/${name}.svg`}
+                  />
+                ))}
+              </div>
+              <p className="eyebrow">Expansive · Versatile · Filled</p>
+              <h3>Tabler</h3>
+              <p>
+                A broad collection in outline and filled styles, roughened
+                without losing its range.
+              </p>
+              <div className="card-meta">
+                <span>{collectionCounts.tabler.toLocaleString()} icons</span>
+                <button onClick={() => showCollection('tabler')}>
+                  Browse Tabler <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section className="principles">
           <article>
-            <b>01</b>
-            <h2>Pre-generated</h2>
-            <p>Small static SVG paths with no RoughJS in your bundle.</p>
+            <b>01 / SHIP LIGHT</b>
+            <h3>Pre-generated</h3>
+            <p>Small static SVG paths. No RoughJS in your bundle by default.</p>
           </article>
           <article>
-            <b>02</b>
-            <h2>Runtime-ready</h2>
-            <p>Tune roughness, bowing and seed when expression matters.</p>
+            <b>02 / MAKE IT YOURS</b>
+            <h3>Runtime-ready</h3>
+            <p>Tune roughness, bowing, fill patterns, and seed when needed.</p>
           </article>
           <article>
-            <b>03</b>
-            <h2>Reproducible</h2>
+            <b>03 / STAY CONSISTENT</b>
+            <h3>Reproducible</h3>
             <p>The same source and seed always produce the same mark.</p>
           </article>
         </section>
         <section id="icons" className="explorer">
           <div className="explorer-head">
             <div>
-              <p className="eyebrow">The collection</p>
-              <h2>{filtered.length.toLocaleString()} icons</h2>
+              <p className="eyebrow">The complete library</p>
+              <h2>Find your mark.</h2>
             </div>
             <label>
               <span className="sr-only">Search icons</span>
+              <span className="search-glyph" aria-hidden="true">
+                ⌕
+              </span>
               <input
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
-                placeholder="Search icons…"
+                placeholder="Search 6,000+ icons…"
               />
             </label>
           </div>
           <div className="filters" aria-label="Icon filters">
-            <label>
-              Icon set
-              <select
-                value={iconSet}
-                onChange={(event) =>
-                  state.setIconSet(event.target.value as typeof iconSet)
-                }
-              >
-                <option value="all">All sets</option>
-                <option value="lucide">Lucide</option>
-                <option value="tabler">Tabler</option>
-              </select>
-            </label>
-            <label>
-              Source style
-              <select
-                value={iconStyle}
-                onChange={(event) =>
-                  state.setIconStyle(event.target.value as typeof iconStyle)
-                }
-              >
-                <option value="all">All styles</option>
-                <option value="outline">Outline</option>
-                <option value="filled">Filled</option>
-              </select>
-            </label>
+            <div className="filter-group">
+              <span>Collection</span>
+              {(['all', 'lucide', 'tabler'] as const).map((value) => (
+                <button
+                  key={value}
+                  className={iconSet === value ? 'active' : ''}
+                  onClick={() => state.setIconSet(value)}
+                >
+                  {value === 'all'
+                    ? 'All icons'
+                    : value[0]!.toUpperCase() + value.slice(1)}
+                </button>
+              ))}
+            </div>
+            <div className="filter-group">
+              <span>Style</span>
+              {(['all', 'outline', 'filled'] as const).map((value) => (
+                <button
+                  key={value}
+                  className={iconStyle === value ? 'active' : ''}
+                  onClick={() => state.setIconStyle(value)}
+                >
+                  {value[0]!.toUpperCase() + value.slice(1)}
+                </button>
+              ))}
+            </div>
+            <p className="result-count">
+              {filtered.length.toLocaleString()} results
+            </p>
           </div>
           <div className="grid">
             {filtered.slice(0, limit).map((icon) => (
@@ -191,6 +299,9 @@ function App() {
                   alt=""
                 />
                 <span>{icon.name}</span>
+                <small>
+                  {icon.iconSet} · {icon.iconStyle}
+                </small>
               </button>
             ))}
           </div>
@@ -203,24 +314,52 @@ function App() {
             </button>
           ) : null}
         </section>
-        <section className="usage">
-          <p className="eyebrow">Use it your way</p>
-          <h2>
-            Static first.
-            <br />
-            Rough on demand.
-          </h2>
-          <pre>
-            <code>{`import { House } from '@rough-lucide/react';\n\n<House size={24} strokeWidth={1.8} />`}</code>
-          </pre>
+        <section id="install" className="usage">
+          <div className="usage-intro">
+            <p className="eyebrow">Bring a little imperfection</p>
+            <h2>
+              Pick a library.
+              <br />
+              Start drawing.
+            </h2>
+            <p>
+              Static components stay tiny. Runtime entry points unlock live
+              roughness, bowing, seeds, and patterned fills.
+            </p>
+          </div>
+          <div className="install-stack">
+            <article>
+              <div>
+                <span className="package-dot lucide-dot" />
+                <b>Lucide for React</b>
+              </div>
+              <code>pnpm add @rough-lucide/react</code>
+              <pre>
+                <code>{`import { House } from '@rough-lucide/react';\n\n<House size={24} />`}</code>
+              </pre>
+            </article>
+            <article>
+              <div>
+                <span className="package-dot tabler-dot" />
+                <b>Tabler for React</b>
+              </div>
+              <code>pnpm add @rough-tabler/react</code>
+              <pre>
+                <code>{`import { IconHomeFilled } from '@rough-tabler/react';\n\n<IconHomeFilled size={24} />`}</code>
+              </pre>
+            </article>
+          </div>
         </section>
       </main>
       <footer>
-        <span>Rough Lucide</span>
-        <p>
-          An unofficial derivative of Lucide Icons. Paths generated with
-          RoughJS.
-        </p>
+        <a className="brand" href={base}>
+          <span className="brand-mark" aria-hidden="true">
+            〰
+          </span>{' '}
+          Rough Icons
+        </a>
+        <p>Lucide and Tabler, redrawn with RoughJS.</p>
+        <p>Open source · MIT</p>
       </footer>
       {selected ? (
         <Drawer
