@@ -123,9 +123,33 @@ function App() {
               <a className="button primary" href="#icons">
                 Explore all icons <span aria-hidden="true">↘</span>
               </a>
-              <a className="text-link" href="#install">
-                Installation guide
+              <a
+                className="text-link"
+                href="https://github.com/I-LIKE-ROUGH/rough-icons"
+              >
+                View on GitHub
               </a>
+            </div>
+            <div className="hero-installs" aria-label="Package downloads">
+              <p>Install your icon language</p>
+              <div>
+                <a
+                  className="hero-install lucide-install"
+                  href="https://www.npmjs.com/package/@rough-lucide/react"
+                >
+                  <span>Lucide</span>
+                  <code>pnpm add @rough-lucide/react</code>
+                  <b aria-hidden="true">↗</b>
+                </a>
+                <a
+                  className="hero-install tabler-install"
+                  href="https://www.npmjs.com/package/@rough-tabler/react"
+                >
+                  <span>Tabler</span>
+                  <code>pnpm add @rough-tabler/react</code>
+                  <b aria-hidden="true">↗</b>
+                </a>
+              </div>
             </div>
           </div>
           <div className="hero-board" aria-hidden="true">
@@ -159,7 +183,7 @@ function App() {
           <p>
             <span>STATIC FIRST</span> · <span>RUNTIME READY</span> ·{' '}
             <span>DETERMINISTIC</span> · <span>OPEN SOURCE</span> ·{' '}
-            <span>6,000+ ICONS</span>
+            <span>7,900+ ICONS</span>
           </p>
         </section>
         <section id="collections" className="collections">
@@ -251,7 +275,7 @@ function App() {
               <input
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
-                placeholder="Search 6,000+ icons…"
+                placeholder="Search 7,900+ icons…"
               />
             </label>
           </div>
@@ -352,14 +376,50 @@ function App() {
         </section>
       </main>
       <footer>
-        <a className="brand" href={base}>
-          <span className="brand-mark" aria-hidden="true">
-            〰
-          </span>{' '}
-          Rough Icons
-        </a>
-        <p>Lucide and Tabler, redrawn with RoughJS.</p>
-        <p>Open source · MIT</p>
+        <div className="footer-intro">
+          <p className="eyebrow">One rough edge, two starting points</p>
+          <h2>Use the names you already know.</h2>
+          <p>
+            Switch collections without switching ideas. Both packages share the
+            same deterministic drawing engine and lightweight defaults.
+          </p>
+        </div>
+        <div className="footer-examples">
+          <article className="footer-example lucide-example">
+            <div>
+              <span>Lucide / outline</span>
+              <img
+                src={`${base}icons/lucide/outline/house.svg`}
+                alt="Rough Lucide house icon"
+              />
+            </div>
+            <pre>
+              <code>{`import { House } from '@rough-lucide/react';\n\n<House size={32} />`}</code>
+            </pre>
+          </article>
+          <article className="footer-example tabler-example">
+            <div>
+              <span>Tabler / filled</span>
+              <img
+                src={`${base}icons/tabler/filled/heart.svg`}
+                alt="Rough Tabler filled heart icon"
+              />
+            </div>
+            <pre>
+              <code>{`import { IconHeartFilled } from '@rough-tabler/react';\n\n<IconHeartFilled size={32} />`}</code>
+            </pre>
+          </article>
+        </div>
+        <div className="footer-bottom">
+          <a className="brand" href={base}>
+            <span className="brand-mark" aria-hidden="true">
+              〰
+            </span>{' '}
+            Rough Icons
+          </a>
+          <p>Lucide ISC · Tabler MIT · RoughJS MIT</p>
+          <p>Open source · Built for React + SVG</p>
+        </div>
       </footer>
       {selected ? (
         <Drawer
