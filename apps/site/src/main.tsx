@@ -109,11 +109,8 @@ function App() {
           <div className="hero-copy">
             <p className="eyebrow">Lucide + Tabler, redrawn by hand</p>
             <h1>
-              Two icon
-              <br />
-              languages.
-              <br />
-              <em>One human hand.</em>
+              Two languages.
+              <em>One hand.</em>
             </h1>
             <p className="lede">
               Thousands of familiar Lucide and Tabler icons, transformed into

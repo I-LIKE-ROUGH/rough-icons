@@ -123,9 +123,9 @@ main {
 }
 
 .hero h1 em {
+  display: block;
   font-family: 'Newsreader', serif;
   font-weight: 500;
-  white-space: nowrap;
 }
 
 .lede {
@@ -1042,10 +1042,6 @@ footer {
   .hero h1 {
     font-size: clamp(56px, 17vw, 86px);
     margin-top: 38px;
-  }
-
-  .hero h1 em {
-    white-space: normal;
   }
 
   .hero-installs > div {
