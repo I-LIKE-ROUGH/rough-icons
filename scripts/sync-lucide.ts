@@ -34,6 +34,9 @@ for (const packageName of ['core', 'icons', 'react']) {
     `${JSON.stringify(publicPackage, null, 2)}\n`,
   );
 }
-execFileSync('pnpm', ['install'], { cwd: root, stdio: 'inherit' });
+execFileSync('pnpm', ['install', '--no-frozen-lockfile'], {
+  cwd: root,
+  stdio: 'inherit',
+});
 execFileSync('pnpm', ['generate'], { cwd: root, stdio: 'inherit' });
 console.log(`Synchronized @lucide/icons to ${version}.`);
