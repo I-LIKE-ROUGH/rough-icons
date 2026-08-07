@@ -8,3 +8,4 @@ allowBuilds:
 
 minimumReleaseAgeExclude:
   - tsx@4.23.7
+  - '@lucide/icons@1.30.0'
