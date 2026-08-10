@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": {
     "package": "@lucide/icons",
-    "version": "1.30.0"
+    "version": "1.31.0"
   },
   "generator": {
     "version": 2,
@@ -11,7 +11,7 @@
     "seedAlgorithm": "icon-node-hash-v1"
   },
   "summary": {
-    "icons": 1764,
+    "icons": 1767,
     "aliases": 258
   },
   "icons": {
@@ -224,6 +224,11 @@
       "inputHash": "a0023db5f1d038ba947bf6c67f73ba685b2ec0a166c54eef62bbdbb5f7861b16",
       "staticHash": "4bd2b6f1ae917c51069d0203374856dc30d26ec0e85c7804be04369b849f8cb3",
       "sourceHash": "2e70c7579b5ef6c1062c43e406d88a5729a26fbbdaa4eba0dbf2b14407675eed"
+    },
+    "angle": {
+      "inputHash": "bb6dbf3e954c19849ba57a46e608396edf8e1e39b0ce30ba737538748f17d339",
+      "staticHash": "fc952650f42a0168ba567c180079c5df91d63b4ab42bf2d1f044441ffbe0e421",
+      "sourceHash": "9173bf6db8f29cc7d447b62740daa89156c430b9673ead037f14151265e73e93"
     },
     "antenna": {
       "inputHash": "6268e0285addc023382ecb510ce91a69b2eea37f876e23a7184f605e9c8d6979",
@@ -2905,6 +2910,11 @@
       "staticHash": "98d378fca4e4e252aa051a41def8da1162406d252aa10acc16567dc46a7fbc8b",
       "sourceHash": "1c03694fe2e3eb0c68e5b280301016c26b5c3db8cff1c14238ce0e4fd34a391b"
     },
+    "eject": {
+      "inputHash": "4463c7c69b06240f338f534d0153d19ea7e510a23283aa9af1337625877f2644",
+      "staticHash": "9b157db5c49b84e2ffbb6cdd450eea2d73a8f7a556b1f8bbe81470d093cca84c",
+      "sourceHash": "2e3c4ce679ba5c493f81436ece03f8320eb2d949d6b0afdb6ddac44726adf346"
+    },
     "ellipse": {
       "inputHash": "33e42b9d17cdaaaa92022787fc6a3c38ec4c8d245c680581c0e8f126bf34e9bf",
       "staticHash": "7713ac077394f2cb1526c1228f36fb866c465e73508a5d49dd800d010b84c179",
@@ -4794,6 +4804,11 @@
       "inputHash": "86db486ce53d2cadedd2f8fe51933b37aefe50a1b3ba083124b55448a44294bc",
       "staticHash": "6d1c86a305a77dd099d75de79dfd8c24eb6e0226295d0b6dfa856ac1fa6f5de3",
       "sourceHash": "b57a76b2ff24850e726972a186947381fe8db6854b5de25b0ba9f33625873142"
+    },
+    "mail-badge": {
+      "inputHash": "4937763bd3785e5119502e089eb8d75f1ceeac5078d0461e376c75186306986f",
+      "staticHash": "03dcef5a2e91e6da3c0b752c9f629f5db4ed2e60232cbfbbcb6b60a72e6dc0fc",
+      "sourceHash": "3e60cd36f32d0b1f018906f99ac58a96b7e3620c585534125fff7aebc487ac94"
     },
     "mail-check": {
       "inputHash": "ae385c78b79057cb8b5ee5bfff8b9be0a68412d89ad67fbcb61eb29a16e925cc",
