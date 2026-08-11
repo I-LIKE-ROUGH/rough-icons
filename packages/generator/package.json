@@ -8,7 +8,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@lucide/icons": "1.30.0",
+    "@lucide/icons": "1.31.0",
     "@rough-lucide/core": "workspace:*",
     "@tabler/icons": "3.46.0",
     "svg-path-bbox": "2.1.0"
