@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": {
     "package": "@lucide/icons",
-    "version": "1.31.0"
+    "version": "1.33.0"
   },
   "generator": {
     "version": 2,
@@ -11,7 +11,7 @@
     "seedAlgorithm": "icon-node-hash-v1"
   },
   "summary": {
-    "icons": 1767,
+    "icons": 1776,
     "aliases": 258
   },
   "icons": {
@@ -519,6 +519,11 @@
       "inputHash": "2f6ec02d3ade023ee8deb1b4d189f6f2bc123ceeb8eee0805d52ca389dadc512",
       "staticHash": "15b0efcbf4933431071aabc578ac64e846fcecc0062c3d20af37baa3ef9b5867",
       "sourceHash": "2ca8f909c0a7c0e5c1b9ff1505c0b4fb8916f653d2da2102f1a917d2fc929c23"
+    },
+    "audio-lines-off": {
+      "inputHash": "04da00914284f990c4566ebd5edd4eb70a00e1b41e92eecb24c60599758e4491",
+      "staticHash": "bbf966f0573e460631359cd35bd11270c06964cb9bacca9246121d25e537f180",
+      "sourceHash": "b4efb6f40f7fbe4397684fcf356b12f79a22d6e2538ff63e71ee7df43ed2ae21"
     },
     "audio-lines-x": {
       "inputHash": "cf3a46bbe88bdeea4af61f1e0501afb542add88d49dc8c942d63cb2453760c3c",
@@ -1479,6 +1484,11 @@
       "inputHash": "452efaa16e1a58bfd678b6880af7f511a830b5dd5ff9f16ed8dd19eb0d996de2",
       "staticHash": "c0df97f419ee14930348f9f846bca2a521eb465d1f199035433add5de3d20dff",
       "sourceHash": "3edf238f57328d072835582cea4a88ab0c8c522dc7067c81fe50788add37ccf5"
+    },
+    "car-battery": {
+      "inputHash": "ff773206f4a5f4437864c0969f6d049a3f34d6c83f7e19d8bd1492053cf2f4ba",
+      "staticHash": "965948ee6aa594700e25734d846c894a7f5ac91f381c737a283ab69633f2ce84",
+      "sourceHash": "d6f7ecf7bee5ba970ddff5b5327c0a9074c7ca3ab09d90f1d61e4ade3bee1885"
     },
     "car-front": {
       "inputHash": "b39346d9fb06118979ea8ca5cd4d93ab687d5db986741074ae6c1ee1d415fda6",
@@ -4630,6 +4640,11 @@
       "staticHash": "a6c1900b43182d24e99759c02f847724d9934dbbdc214c071f1f1bc48e2bf92d",
       "sourceHash": "3daa5a47079a539b8a79a26d76383a93601078532d4dbd74b8bf0028bbd0ee3b"
     },
+    "list-clock": {
+      "inputHash": "d7191ff3be592816ca7b36f33932cf950f5e5271c0a9484408f9af50e50db38c",
+      "staticHash": "b7fb00ce405e3493e678195105d1fbbcfea8d1a9a1aadf7cbce06372903cb17f",
+      "sourceHash": "f5b7493e63e1521f47f2a6f480179a0a8f353e86c252175d344ee8fcdae7d76e"
+    },
     "list-collapse": {
       "inputHash": "e4a90317756bc233887f0058520a9fd819375ae02f61a37bc7937068865caf3f",
       "staticHash": "4d5cc401762d03afa06c1c128342acbb21b47f628198e1f684c054a392d83784",
@@ -5195,6 +5210,11 @@
       "staticHash": "eb48b87c9802ade4ddf36753e09b6865e8411406ca767aad612c911228195e89",
       "sourceHash": "68fc43d39c8f40bdc05275c60226a4ffe762f11e03ab3689820f0a50fcbdfb6b"
     },
+    "midi-port": {
+      "inputHash": "b79d56201065a6f963500516f52cd162484fac19c53ede086b09d63c4e08fa0d",
+      "staticHash": "9c13af4624e3aacbf788457365ffc9b8ebf34d76aa17bc6ff22a734c88846c1e",
+      "sourceHash": "4b80231bfec4a9cbcdf77ce04251e3d138c9d1b3a56c4a695a193a9d5772214e"
+    },
     "milestone": {
       "inputHash": "71494c46f3c321d0edc95099a78ff123c018c96bb87a8e73fa7243644505bccf",
       "staticHash": "577aea35b88cb9026955192c951dc7691c4e1a205f07b0e86d90a7902de4607c",
@@ -5314,6 +5334,16 @@
       "inputHash": "2c6327fce0fdd5d749f16d42f39ff2f5cc88da96b6569e803ca44e658f3b0cd2",
       "staticHash": "f096a7a19542beba82bf036a9bf82b4160c3099d0de46443d42d5fbfa19086ac",
       "sourceHash": "81d3b2e5096abeaa7fa133ad22e1e952e14bb2a3e912d60168cf3eecbc20b009"
+    },
+    "mop": {
+      "inputHash": "8ebb055584122ad272e4bc9005637d870a3e1a49269dbf12b24ee9acebf5efcb",
+      "staticHash": "eab3ef980ae9480f0dadfc81d9cbfebc21b521ccf1132f6ad1a79c446b42a077",
+      "sourceHash": "ea5345a8458479445575ad2bec103e63e224c3dcdc7bf189ae6be518bf54228f"
+    },
+    "mop-sparkles": {
+      "inputHash": "9fcf748be757e832539af2fb19d25b7f0fe427d22d70cd3e51c7ab563635a3b6",
+      "staticHash": "14f512b1ee274554e93d3465e03d1eacfae55b68b7ba7979ebc0c4708a538190",
+      "sourceHash": "0dc3906ceb48468a1c2e9fc7f17953ead5f0313428d28d6c1a90d068510265a8"
     },
     "mosque": {
       "inputHash": "ce9ff467b78fbce84ac4e62a28b5f7c45a147e944bf9d689014d18722096ef47",
@@ -7315,6 +7345,11 @@
       "staticHash": "f34857b67aacd8f79e6407f30cb5684d99cfc08819da391d488c1c3a0c2fcc60",
       "sourceHash": "2cf59d48831519721273f1fe11518cfc7b146796b26e5f47f3e90216118cbcd6"
     },
+    "square-dimensions": {
+      "inputHash": "755ef697d82634aeae5ac6f2de4983e7537daacf396a631139f11c635be26296",
+      "staticHash": "67d156c755c7c7458497cf775d8c1685c1dea5deb413ebdcfd1e9677ed133092",
+      "sourceHash": "6a6c3c16a8c25a501e76debc364180dd17672e8d92df90541d7fd4b9bedb0990"
+    },
     "square-divide": {
       "inputHash": "c66ee92daeb9d5f70195cd7c773e84c47b4879b9b1e4a38197afdf1c035b961d",
       "staticHash": "e1e683aacd5cb9391e1248dbb0da28d2afd2bdb402a9056379fd4982a943bee8",
@@ -7479,6 +7514,11 @@
       "inputHash": "da55040c29b2a3cc5dd945a60691c25e52ea4ef72fb7bdc8077e600e406e4870",
       "staticHash": "c467fb1ee1bd280bab22f01eb4e7d5d79606548dc4b17a19de89ab38f8be68e1",
       "sourceHash": "8a703f1f91e09909996dbf9ea1fea67b4a0cd32fb849c57093d822cdf482cdca"
+    },
+    "square-text": {
+      "inputHash": "9f06b51342a33e5052436de5a9fca80c811867d1888f48b76a8a9d7567a13073",
+      "staticHash": "f52e49d80a6efc44ad9f1bec148f4211b2d0f52aaa7a0bc5e6fd74cfe589d9f2",
+      "sourceHash": "cecea26c0e0eee63761af4b9425bae72631c2586a4dcb10d59513e6e9507d492"
     },
     "square-user": {
       "inputHash": "44bdb0746d6edb7b63a15b05bb59bff915ae0e1352c2ca56a2dbabbf746e02d5",
@@ -8309,6 +8349,11 @@
       "inputHash": "4687b56b6f7c584758f05941f8bcc4933a0cf9cbdbac96abb10d80570264eb07",
       "staticHash": "554dfea94d0b03bf79f865028ce2208b5e20eae328f675d970c25c6456ebb031",
       "sourceHash": "a46047d115ab8489c49e75a2eb88bcc946269b2695315c5b843c91bba9a3d8dc"
+    },
+    "usb-c-port": {
+      "inputHash": "5404bcaf41f617992b100d8230994c63a8520e6264c069bf3b7b13794ad9c55f",
+      "staticHash": "843513e7815199b5ef71f0a871b62738d308ed2e2ea5e580c9e8e11e514cb4f9",
+      "sourceHash": "b02d3420f714923d6ddd544ce1e906c62ef6dbe3913461e8f1c6ab6a211a3d92"
     },
     "user": {
       "inputHash": "c9394361aa161af2eb5a267d7383e45e04e8f33227c7a8d4c1270d0cc1bf97fb",
