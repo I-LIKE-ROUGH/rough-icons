@@ -1,6 +1,11 @@
 {
   "name": "@rough-tabler/react",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/I-LIKE-ROUGH/rough-icons.git",
+    "directory": "packages/tabler-react"
+  },
   "files": [
     "dist"
   ],
@@ -63,6 +68,9 @@
       "types": "./dist/dynamic.d.ts",
       "default": "./dist/runtime/dynamic-filled.js"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsdown && node scripts/write-declarations.mjs",

@@ -1,6 +1,11 @@
 {
   "name": "@rough-lucide/react",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/I-LIKE-ROUGH/rough-icons.git",
+    "directory": "packages/react"
+  },
   "files": [
     "dist"
   ],
@@ -13,6 +18,9 @@
     "./runtime/icons/*": "./dist/runtime/generated/*.js",
     "./dynamic": "./dist/static/dynamic.js",
     "./runtime/dynamic": "./dist/runtime/dynamic.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsdown",

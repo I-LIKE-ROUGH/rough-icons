@@ -1,6 +1,11 @@
 {
   "name": "@rough-tabler/icons",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/I-LIKE-ROUGH/rough-icons.git",
+    "directory": "packages/tabler-icons"
+  },
   "files": [
     "dist"
   ],
@@ -55,6 +60,9 @@
       "types": "./dist/types.d.ts",
       "default": "./dist/types.js"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsdown && node scripts/write-declarations.mjs",

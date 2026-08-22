@@ -1,6 +1,11 @@
 {
   "name": "@rough-lucide/core",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/I-LIKE-ROUGH/rough-icons.git",
+    "directory": "packages/core"
+  },
   "files": [
     "dist"
   ],
@@ -10,6 +15,9 @@
   "exports": {
     ".": "./dist/index.js",
     "./runtime": "./dist/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsdown",
