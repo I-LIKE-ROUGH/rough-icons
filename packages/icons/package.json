@@ -31,7 +31,7 @@
     "@rough-lucide/core": "workspace:*"
   },
   "roughLucide": {
-    "lucideSourceVersion": "1.33.0",
+    "lucideSourceVersion": "1.45.0",
     "presetVersion": 1,
     "generatorVersion": 2
   }

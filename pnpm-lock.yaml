@@ -79,8 +79,8 @@ importers:
   packages/generator:
     dependencies:
       '@lucide/icons':
-        specifier: 1.33.0
-        version: 1.33.0
+        specifier: 1.45.0
+        version: 1.45.0
       '@rough-lucide/core':
         specifier: workspace:*
         version: link:../core
@@ -365,8 +365,8 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
 
-  '@lucide/icons@1.33.0':
-    resolution: {integrity: sha512-bsWF96tciAoxzPBEA7NZcTZhPqIivX3tynCwfLYF+QxcfEtseS6sX1dJ+aFvpgLihsESLlHWOKKBaQV+SsMDlA==}
+  '@lucide/icons@1.45.0':
+    resolution: {integrity: sha512-YiCragzJXRsUNbrk9S/fsz1XQoOJsJdnF2XEmNpNHp/u3+rJVOeGTW8rmDLpbCpm8BW0GDRADRNiCu9qnfIJeg==}
 
   '@manypkg/find-root@3.1.0':
     resolution: {integrity: sha512-BcSqCyKhBVZ5YkSzOiheMCV41kqAFptW6xGqYSTjkVTl9XQpr+pqHhwgGCOHQtjDCv7Is6EFyA14Sm5GVbVABA==}
@@ -1892,7 +1892,7 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
-  '@lucide/icons@1.33.0': {}
+  '@lucide/icons@1.45.0': {}
 
   '@manypkg/find-root@3.1.0':
     dependencies:
