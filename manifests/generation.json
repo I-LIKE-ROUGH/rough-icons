@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": {
     "package": "@lucide/icons",
-    "version": "1.47.0"
+    "version": "1.48.0"
   },
   "generator": {
     "version": 2,
@@ -11,7 +11,7 @@
     "seedAlgorithm": "icon-node-hash-v1"
   },
   "summary": {
-    "icons": 1848,
+    "icons": 1854,
     "aliases": 264
   },
   "icons": {
@@ -1230,6 +1230,11 @@
       "staticHash": "c990ac579db7276a48a4cf1a8289f6ba2372f3bb49c135f45dc9759d5a56af23",
       "sourceHash": "4566f1d70c42f8bda84ba0c7cc39e87e7c3b0fab3b827c8090ccb6bf5fa99e59"
     },
+    "briefcase-plus": {
+      "inputHash": "03762050003999d2d43d6059fd36233117e564ae6941dc30cbd7eddea90c0e7c",
+      "staticHash": "64d615402b0a4e4d65db979c651e8184487bffb43765972bcdd7edbd6f6ba26e",
+      "sourceHash": "6e2f445fa79c055123a88d71baef69c102c9a00bf8c32615ddf2ecafb18e4eb0"
+    },
     "bring-to-front": {
       "inputHash": "2c56404afb3398fe0e605462be38ac969ee238bd5b3e021378cb3164da3aef8b",
       "staticHash": "16ed9b9b4b4cabc6a3ec7aff17420bb894f7ece4cb7c3c4f6c3dbe7b9233f3be",
@@ -1526,9 +1531,9 @@
       "sourceHash": "941605bf96ba8cff28777a0f60482aade963923770bcbee9e1481f59d7ca2646"
     },
     "card-sim": {
-      "inputHash": "a70c6ed48b9bd765c707b1a7a1cdcddedfcee8c416484299e73a927f46e3dbc7",
-      "staticHash": "a53c8bd18719cbc560acd9525976388478163cf8d0dcc7f29419bc380bf1bdd3",
-      "sourceHash": "2d35a2658ae6904aeef35950694ea6f8fad86a5c6c79dd96285f11b007f82c0e"
+      "inputHash": "786891001755d7c65ae5d88e02270203ccfe19e9bae04532f196efa1b2488350",
+      "staticHash": "00e4e6fd1fd8dc2e2f75d755d2966a3da02c844859befc497832e8d24f62b755",
+      "sourceHash": "1cc66b6b2b9a70919804452656f41b3ad4aca65c60451d275b6475a302a682ba"
     },
     "carrot": {
       "inputHash": "8b0ec36617ab4bfee9992bda8c19e0fbf90fc5bd09fc7b48f5fba447a67d6505",
@@ -4340,6 +4345,11 @@
       "staticHash": "b5a57295f87285423bc2918a78f04e257f0bada8facc3f0473bc496eece3f45e",
       "sourceHash": "bd1c3861d46300b4bccefd818be9795b597857ff8ad8307a5fc85bd55fe9426a"
     },
+    "house-cog": {
+      "inputHash": "cb9fd3456ffb96efd2031fafbe30752fdf08cd172ded2cb542f9af9c1e0dbeaf",
+      "staticHash": "a4ea41a5a09cd2ec37c8960791303de50595d30ecb5aa79cf90ad570e736e4dd",
+      "sourceHash": "215efcc8774a36cd539b0c613bd547420aaa35a65c2cd9e8f04b32461fc2a96f"
+    },
     "house-heart": {
       "inputHash": "edfbf7a3b8ffaa2028ee73ed65cb06593e42a529bf9ef885cb3f87cdb0c31db8",
       "staticHash": "233a094828788361a45be41666406878be604265616ee95f238a79164a7580ed",
@@ -4750,10 +4760,25 @@
       "staticHash": "e2372b91fe3440f8f608f89771ad36a37c4fd3b93fff70aae00d265bc894fd35",
       "sourceHash": "7b0b92403ec41def3f9ed336c984f884e92f10253158fc2c20d26bf69ab299f1"
     },
+    "line-dot-bottom-vertical": {
+      "inputHash": "ecc84c64dd2fa6fb53049b1386ef78d9d454cdd062688f7815f0528c3c3cd9a2",
+      "staticHash": "9e62782b384604b3461dc5bf8389d6421e7fd236fdcf301af085823426586b13",
+      "sourceHash": "9734cf4541b9ca8f67934125da38b1369b5d24784fc813731073cf0c673cc18c"
+    },
+    "line-dot-left-horizontal": {
+      "inputHash": "4cdbb89122abadca426ba6752f71cb901c565e5d2ae4ffec6f1c3e2bf7ae4adb",
+      "staticHash": "b624489c9d93347a3acd191ea2cb0f02e666530731619a8d0df664b6f3ca3fec",
+      "sourceHash": "17a1df202153f7da6ea7910fcba5b93eafe026f4aaf1d1ad60d8db03434a7cc5"
+    },
     "line-dot-right-horizontal": {
       "inputHash": "34dec092800f7e70826c5c182641aed01a6ef3eebff587725dddba15bd2cf361",
       "staticHash": "f788ee47c232e547dd4779c13a85e1506e95e428014686a9a92606b9e656094b",
       "sourceHash": "d6abef6c3da88b7f956bf8d879b9f29db69afd0f2173b13e319628015c9a13dd"
+    },
+    "line-dot-top-vertical": {
+      "inputHash": "12bea4b6c915ae02662f1d52a870daab02ad5f699f003dc0599937d888c9beb8",
+      "staticHash": "a085094a305d88ea5fd30f7da238b0462b354b78903099616da45b51108e3bd7",
+      "sourceHash": "f97d92b74f18a4967f31c8680c6dcc6453a1d31c7b2f9ced9892c222e3df4c8c"
     },
     "line-squiggle": {
       "inputHash": "35233aa4ffe6ad3372340338cae19f8b27950f66c90abc402bd35e09df9cd42e",
@@ -5011,9 +5036,9 @@
       "sourceHash": "565ac3fe8e509e3878671a31d9a0c6b602f4b67c2f5654e9e7bef2a863b0a3a6"
     },
     "mail-pen": {
-      "inputHash": "5c754fc83211ae4b37df6831412003b905a74cb465a0056f6f64e612ee055d7a",
-      "staticHash": "838916961da12dce453d7e9968da475976e47f0e51d65d6c4affd9d1e12282ed",
-      "sourceHash": "91d35b04d32b59cd2a17a8b6f3133a6aa208a6718f792f85ae829029ab210170"
+      "inputHash": "86bb607733c9c24899530ec7be8896c05b9c5d4d50cb8ec3112f8749c4ef5eca",
+      "staticHash": "caea77a811f77a15008bf3b2300eebd2e643acd71ef41f1ff09fa6266d205196",
+      "sourceHash": "9e06c7925d788404aba2afe224778757b97191224d40352f5afd79e2e6687d1b"
     },
     "mail-plus": {
       "inputHash": "402d23fdb5ba61a1e3823223b4e62b37a2a6bf4c1c3434ce785eb651af4775ad",
@@ -5126,9 +5151,9 @@
       "sourceHash": "33e393f32771de2412feadc7e18eb28a47eff425442873a79285d44c8c90cfef"
     },
     "map-pinned": {
-      "inputHash": "c39f1b9dfe9dd7e1ad5749da71e9454e59700fcb4141f93e196f589ef743666f",
-      "staticHash": "4146a124dfda7e19d6a48fd8f09364a4219273c3e4cfa8bf44d5393d6d9fda32",
-      "sourceHash": "b5a78b4ac97ce4e1cf0dfb1d228a54f0e62e436bb0d35a98222a175d59082e70"
+      "inputHash": "b06811bebe913389f1a31f3c6c67e279ca0515126f5dde8a2d29f6b9f2cf37bd",
+      "staticHash": "b1e8ad6dba087cd1b0d07abc5b022fc042858d8489d012a9fabc5260f240ec54",
+      "sourceHash": "370d151854ee4112c468987636f17d9d9850c3b158ee6f1760dce97fc32fb62e"
     },
     "map-plus": {
       "inputHash": "84866be3abeca5867ccf3ae0417f5a00aab65e9e608e1f85e828b87e0cef335f",
@@ -7774,6 +7799,11 @@
       "inputHash": "6c245b791e9bc88985aa7ecd5efa61e69ba0da086ad7c05812cb3ca6a90c8a4f",
       "staticHash": "0fc15f314008aa96e18c7ec02bd6ec14853402fb812b7febf1f9e69fcd4ae6f0",
       "sourceHash": "827e0e06d6c2cb419b6c2432811104ef5eb0bac1eb616622a81c7d8d876437a1"
+    },
+    "square-sparkles": {
+      "inputHash": "cdd8bfa3d19404e6639412b3a1f53d2302b1150c3181695c3b37593fd52e1c67",
+      "staticHash": "da130ae3dd1c72858c542b15057077c6e35f710a18fdf27a26e260b1400acf37",
+      "sourceHash": "9c8b32b39d52137c3b92b83b85a1af95de63fa9bade072e3ec1bcb9021601e1d"
     },
     "square-split-horizontal": {
       "inputHash": "f3cd3e4bb9ef238afc0db9f928ef0c154d5d5a4effee80d5a4b4543ba9fe999a",
