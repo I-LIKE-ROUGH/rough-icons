@@ -10,7 +10,7 @@
   "dependencies": {
     "@lucide/icons": "1.47.0",
     "@rough-lucide/core": "workspace:*",
-    "@tabler/icons": "3.46.0",
+    "@tabler/icons": "3.50.0",
     "svg-path-bbox": "2.1.0"
   }
 }
