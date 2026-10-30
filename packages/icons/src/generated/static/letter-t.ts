@@ -1,0 +1,1 @@
+export const LetterT = {"name":"letter-t","width":24,"height":24,"paths":[{"d":"M12 20 C12.776 15.895, 12.005 12.003, 12 4 M12 20 C12.094 14.373, 11.854 8.485, 12 4","fill":"none","stroke":"currentColor","strokeWidth":2},{"d":"M5 4 C10.359 4.311, 16.334 3.813, 19 4 M5 4 C10.346 4.042, 16.181 4.28, 19 4","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;
