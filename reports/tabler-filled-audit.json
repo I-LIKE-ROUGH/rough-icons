@@ -1,19 +1,19 @@
 {
-  "version": "3.46.0",
+  "version": "3.51.0",
   "summary": {
     "icons": 1054,
-    "nodes": 1559,
+    "nodes": 1558,
     "compoundPaths": 703,
-    "multiNodeIcons": 229,
+    "multiNodeIcons": 228,
     "evenoddPaths": 0,
-    "mixedPaintIcons": 229,
+    "mixedPaintIcons": 228,
     "unsupportedIcons": 0
   },
   "elements": {
-    "path": 1559
+    "path": 1558
   },
   "attributes": {
-    "d": 1559,
+    "d": 1558,
     "fill": 16
   },
   "riskBuckets": {
@@ -298,6 +298,7 @@
       "bug",
       "bus",
       "calculator",
+      "calendar",
       "calendar-event",
       "camera",
       "car",
@@ -912,7 +913,6 @@
       "building-broadcast-tower",
       "bulb",
       "butterfly",
-      "calendar",
       "calendar-month",
       "calendar-week",
       "campfire",
