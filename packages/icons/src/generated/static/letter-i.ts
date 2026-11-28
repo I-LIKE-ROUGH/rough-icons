@@ -1,0 +1,1 @@
+export const LetterI = {"name":"letter-i","width":24,"height":24,"paths":[{"d":"M12 20 C11.766 16.527, 12.409 11.568, 12 4 M12 20 C11.978 13.876, 12.048 8.155, 12 4","fill":"none","stroke":"currentColor","strokeWidth":2}]} as const;
